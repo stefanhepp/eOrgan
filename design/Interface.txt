@@ -1,0 +1,84 @@
+
+--- Overview ---
+o) Stops
+
+o) Panel
+- Indicators, Menu
+- Effects (Tremolo, Leslie, ..)
+- Hammond
+- (Special) Couplers
+- Solo Stops?? 
+- Split Pedal
+- Combinations, Levels (stored setups), Banks, various modi
+- Each Panel
+    - Menu button -> quick access to menu
+    - Presets
+o) Manuals
+- Pushbuttons only, no indicators (indicator lights are on panel)
+- Sequencer, Page Turn, Set
+- Coupler, Clear, Crescendo Enable, Off?, Octave Coupler
+- Combinations, Tutti?
+o) Swellpedals
+- Swell/Choir Swell, Crescendo Pedal
+- Pedal combination, coupler pistons
+- Sequencer, Page Turn
+- Global combinations, Programmable
+o) Pedalboard
+
+
+-- Stops --
+o) General
+- 2 programmable stops: like combination piston, can enable any stop in division/all divisions, but is additive
+
+-- Panel --
+o) TODO
+- Sequencer, Page Turn, Clear P-III: remove
+
+o) Effects
+
+o) Solo?
+
+o) Hammond
+
+o) Coupler, Split pedal
+
+o) Combinations, Modi
+- Hold: if enabled, only change registration when hold is disabled
+- Set Global (Borrow): if enabled, set division combination will set all stops on all divisions
+- Store Couplers: if enabled, store division/global couplers instead / in addition to stops (2x press, blinks ?)
+- 
+
+
+-- Manual thumbpistons --
+o) Swell
+- Global/Programmable
+    - Combinations 1-8
+- Page Turn <, >
+- Swell
+    - Solo/III, II/III, I/III
+    - 16'/4': Toggle 16'/4' coupler, Hold + press coupler to enable 16'/4' coupler from division (?)
+    - Off: 1x Press: Off Toggle, 2x Press: Tutti
+    - Combinations 1-6, Crescendo Enable (CR), Clear
+o) Great
+- Set: Hold + press combination button -> sets current setup (depending on mode either only for division/all divisions)
+- Hold Toggle
+- Clear Global
+- Coupler combinations/Programmable 1-4
+- Sequencer <, >
+- Great
+    - Solo/II, III/II, P/II
+    - 16'/4': Toggle 16'/4' coupler, Hold + press coupler to enable 16'/4' coupler from division (?)
+    - Off: 1x Press: Off Toggle, 2x Press: Tutti
+    - Combinations 1-6, Crescendo Enable (CR), Clear
+o) Choir
+- Pedal
+    - III/P, II/P, I/P
+    - 4'/Split: 1x press toggles 4' coupler, 2x press splits pedal, Hold + press coupler to enable 4' coupler from division (?)
+    - Off: 1x Press: Off Toggle, 2x Press: Tutti
+    - Combinations 1-5, Crescendo Enable (CR), Clear
+- Choir
+    - Solo/I, III/I, II/I
+    - 16'/4': Toggle 16'/4' coupler, Hold + press coupler to enable 16'/4' coupler from division (?)
+    - Off: 1x Press: Off Toggle, 2x Press: Tutti
+    - Combinations 1-6, Crescendo Enable (CR), Clear
+
