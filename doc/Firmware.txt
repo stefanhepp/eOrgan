@@ -1,0 +1,128 @@
+-- Parts --
+o) Main Controller
+- Stores current settings, handles IO-Devices
+- Writes to Lookup Table, diff to lookup table for change checks
+- Stores non-volatile settings to ROM, initializes lookup table on startup
+- Sends messages to midi processor on changes (including change data)
+- get status messages/updates from output interface
+
+o) ROM Memory
+- Stores settings/profiles
+
+o) Lookup Table (RAM Memory)
+- Stores current settings, coupler, stops, input sources, .. 
+
+o) Midi Processor
+- Reads from input sources, processes midi signals
+- Init Midi output, send control messages
+- merge+process midi msgs
+- output midi stream to output encoder
+
+o) Output Interface
+- Encode Midi to USB, send Midi Stream with midi baud rate to midi out
+- buffer output, signal buffer overflow on too many msgs
+- select USB-Input
+- send/receive special control messages/Settings from USB-Host-Software to Main Controller
+- ISP over USB of firmware for all other controller
+
+
+-- Settings Menu --
+o) Per Channel (for I/II/III/P, or single channel)
+- Effect Settings
+  - Tremolo Level
+  - Chorus Level
+  - Vibrato 
+- Midi Output Settings
+  - Volume value (0-127)
+  - Expression value (0-127)
+  - Balance value (0-127)
+  - Pan Position value (0-127)
+- Transpose 
+
+o) General
+- Select Input Source for I/II/III/P
+  - Internal Source, all channels/select channel
+  - Midi In, all channels/select channel
+- Midi Output
+  - Set channels for output
+	- Different channels, select channel for I/II/III/P
+	- Single channel, select channel (higher load, needs controller msg resend)
+  - Midi Receiver Capabilities
+	- Send Coupler States: on/off (send coupler states on change if enabled, send multiple notes per key if disabled)
+	- Send Stop States: on/off (send stop states on change if disabled, send multiple notes per key if disabled)
+	- Send Midi Effects: on/off (send midi effect ctl msgs for vibrato/tremolo, else emulate using repeated ctl msgs)
+	- Send Crescendo Pedal: on/off (send pedal values using Foot Pedal msg, send on all affected channels)
+	- Send Tutti as single stop: off/on (send tutti as own stop instead of sending all selected stops)
+	- Send Midi Programs: off/auto/single/combinations
+	  off: don't send midi programs
+	  single: send each stop on an own channel (total of stops is 16)
+	  combinations: one channel per manual, send only available combinations as single program
+	  auto: send stops on own channel, use available combinations to reduce channel count
+  - Midi Output Settings
+	- Midi Master Volume value (0-127)
+	- Use Swell Pedals to Modulate: Volume/Expression/
+    - USB output: Auto/External/Internal/Off (Auto uses external when connected, else internal)
+	- Enable external MIDI output: off/on
+
+o) Stops
+- Manage Combinations
+  - For I/II/III/P/Global
+    - Add/Remove/Insert Stop combinations (up to 16? per division, set names for combinations; first 4/8 available throu pistons/btns)
+	- Additive: off/on (ignore others if additive; activating non-additive disables other non-additives, global non-additives overwrite divisions)
+- Crescendo Pedal
+  - Affect: All/I/II/III/P/Off (off: send msg only)
+  - Manage Levels (up to 32)
+    - Add/Remove/Insert Levels
+- Manage Stops
+  - Reset all stops (set only drawn stops to active, clear all others)
+  - Tutti Stops
+    - For I/II/III/P, select stops to play with tutti (if tutti is not send as single stop)
+  - Set Midi Programs (only used if Send Stop States off, defaults to default soundfont stoplist)
+    - For all Stops of I/II/III/P, set Bank + Program Nr
+  - Set Midi Programs for Stop Combinations
+    - For I/II/III/P, Add/remove stop combination, set Bank + Program Nr (use current drawn stops for add)
+
+-- General Menu -- 
+o) Profiles
+- Store Profile (store all settings, choose don't care per menu entry)
+- Load Profile (overwrite all settings stored, keep settings values for ignored entries)
+- Edit Profiles, set don't cares/store current settings per menu entry
+- Reset to default Profile
+
+o) Status (displays during startup)
+- Connected to USB-Host-Software?
+- Using default organ font?
+- Firmware Nr.
+
+o) Info Display (Icons,..)
+- Output Buffer overflow
+- Loading/Receiving data
+- Stop/Effects Maximum exceeded
+- Invalid Stop combination
+
+o) Host Software (only available when connected)
+- Load Sound Font (Get list of fonts from software)
+  - Default, Cembalo, Jazz, General Midi, ..
+- List current stops (List all stops of current sound font)
+- Download Midi Program Config for current Sound Font (overwrite current setting, only if available)
+- Remove Profiles
+  - List remove profiles
+    - download, remove
+  - Download Profiles from Host (ask for overwrite (yes/no/all/none))
+    - download all
+    - select profile to download from remote list
+  - Upload Profiles to Host (ask for overwrite (yes/no/all/none))
+    - upload all
+    - select profile to upload
+
+o) Settings
+- Language: German/English
+- Reinitialize Midi Output (send all notes off, send default ctl msgs,..)
+- Send Midi Reset (send midi reset ctl msg)
+- Reset Organ (reboot firmware)
+
+-- Notes -- 
+o) Send Coupler/Stop states
+- SysEx Messages
+- Non-Registered Parameters + Data Value
+- General Button values as bitmasks

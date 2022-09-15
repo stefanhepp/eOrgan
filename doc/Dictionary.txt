@@ -1,0 +1,169 @@
+Dictionary, lexicon
+--------------------
+
+[German, English[, French]: [Description] 
+
+----- Generell, Aufbau -----
+- Spieltisch, console
+  Kompletter Aufbau, Bestehend aus Divisionen
+
+- Klaviatur, manual
+  Meistens 61 Tasten, C - g3
+  Nummerierung der Klaviaturen von unten nach oben (P, I, II, III, ..)
+
+- Division
+  Manual mit dazugehörigen Registern und Pfeifen
+
+- Disposition
+  Zusammenstellung aller Register von allen Divisionen und Spielhilfen (Koppeln,..)
+
+- Traktur
+  Verbindung zwischen Taste und Tonventil
+
+- Werk/Teilwerk
+  Baulich getrennte Register
+
+----- Teilwerke -----
+- Prinzipal/Hauptwerk, great
+  Hauptstimme der Orgel, vorwiegend Prinzipal, Mixturen, Zungenstimmen
+
+- Pedalwerk, pedal
+  Tiefste Stimmen, Pfeifen in Pedaltürmen untergebracht
+
+- Schwellwerk, swell, récit
+  Pfeifen in Schwellkasten, über Hauptmanual
+
+- Chor, choir
+  2. Nebenstimme, unter Hauptmanual, haupts. Solostimmen
+
+- Rückpositiv
+  hinter Organist auf Emporenbrüstung, kleine Pfeifen, Solostimmen
+  unter Hauptmanual
+
+- Positiv 
+  - Kleine einmanualige Orgel
+  - zusätzliches Teilwerk
+
+- Solowerk
+
+- Oberwerk
+  Höchstes Teilwerk, Soloregister, Aliquoten
+
+
+----- Register, Effekte -----
+- Register, stops, jeu coupe
+  Pfeifen der selben Klangfarbe einer Division
+  Angabe der Fußtonhöhe bestimmt eigentliche Tonhöhe
+
+- Registerstimme, voice, jeu
+  Klang/Stimme des Registers
+
+- Registertraktur, stop action
+
+- Registergehäuse, stop arragement
+
+- Fusstonhöhe
+  Länge der größten Pfeife in Fuss; 8' entspricht C (Normaltonlage, entspricht Tasten wie notiert)
+    4' eine Oktave höher, 2/3' eine Oktave und Quint höher
+    16' eine Oktave tiefer, 32' zwei Oktaven tiefer (16Hz)
+  Grundregister: 64', 32', 16', 8', 4', 2', 1'
+  Aliquotregister: sonstige Teiltöne (Quint, Quart, Terz, None,..)
+
+- Mixtur 
+  Register mit mehreren Pfeifen pro Taste, die Anzahl der Pfeifen pro Taste ist auf dem Register angegeben (Mixtur XX)
+
+- Soloregister
+  Vox Romana, 
+
+- Tutti, Full Organ 
+  Alle Register ziehen (einer Division)
+
+- Vibrato
+  Frequenz-Modulation einer Note
+  Vibrato für alle Register in Division
+
+- Tremolo
+  Amplituden-Modulation einer Note
+  Triller, eine oder mehrere Noten
+
+- Chorus
+  Ton mehrfach mit leicht unterschiedlicher Frequenz spielen
+
+- Reverb
+  Mehrere Echos überlagert
+
+- Second Touch
+  Second contact for keys on deeper position, allows to play additional instruments when keys are pressed deeper
+  similar to Midi Aftertouch
+
+----- Setzer, Koppler, Pedale -----
+- Spielhilfen
+  Koppler, Setzer, 
+
+- Koppler, coupler
+  Koppel a/b (a to b): b spielt zusätzlich a, in Division von b (um nur Register von a mit Manual b zu spielen: Koppel a/b, Unison Off bei b)
+  Meistens als Registerzüge oder Tabs über Manualen
+
+- Unison Off
+  Register einer Division abschalten (betrifft nicht Koppeln; Unison Off + 8" spielt Division eine Oktave höher)
+
+- Setzer, combination piston
+  Setzt vordefinierte Register
+  - Generelle Setzer, für alle Register/Divisionen, meistens Fuss-Setzer links
+  - Pedal-Setzer: Fuss-Setzer für Pedal-Division, rechts 
+  - Division-Setzer: Setzt Register pro Division 
+  - Registrierfessel: lässt Änderungen von Registern erst bei freigeben aktiv werden
+
+- Thumb pistons
+  Setzer unter Manualen, pro Division, oder Global (bei Great), Reversibles (togglen Zustand)
+  Für Setzer, Koppler, Setup
+  Reihenfolge: Koppler, PP, P, MF, F, FF, 1, 2, 3, 4, 5, C (Clear), Set
+
+- Sequenzer
+  Durchläuft Registerkombinationen, meist 2 Tasten (vor, zurück)
+
+- Reversible pistons
+  Schalten zwischen On/Off um, für Koppler, Registrierungen oder einzelne Stimmen
+
+- Fusstritt, toe piston
+  Fussschalter für Spielhilfen
+
+- Schwelltritt/Schwellerpedal, swell pedal/expression shoe, pedale d'expression
+  Reguliert die Lautstärke von zugeordneter Division (durch Abdämpfen)
+  Links: Chor, Mitte: Positiv
+
+- Registerschweller/Walze, crescendo pedal
+  Zuschalten von Registern, leise auf laut, auf alle Divisionen
+  Setzer von leise auf Laut, Rechts von Schwell-Pedalen
+
+----- Pfeifen -----
+- Mensur, pipe scale, taille
+  Maße, die die Klangfarbe bestimmen (Längenmensur, Weitenmensur,..)
+
+- Gedackte Pfeifen
+  oben geschlossen, benötigen nur halbe Länge
+  
+- Zungenpfeifen/Lingualpfeifen, reed stops
+  Bombarde, Basson, Trompette, Clairon
+ 
+- Lippenpfeifen/Labialpfeifen, Flue Stops
+  - Principals
+  - Flutes
+  - Strings 
+  - Hybrids
+
+- Diaphone
+  Mostly theatre organs, 'simulates' larger pipes
+  Not affected by wind pressure, usually used in theatre organs
+
+- Open Diapason
+  Synonyms, but different systems: Principal (front), Diaphonic Diapason (Diaphone), Montre (enclosed (?))
+
+- Tibia
+  Qualifier for 'Pipes'
+
+- Blindpfeifen, dummy display pipes
+
+- Prospektpfeifen
+  Sichtbare Pfeifen
+

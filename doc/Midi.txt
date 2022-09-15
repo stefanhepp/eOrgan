@@ -1,0 +1,61 @@
+-- Definitions --
+o) Channel
+- 16 Channels, divide music streams
+
+o) Base Channel
+- If Omni Mode off, receiver only listens to Base Channel
+
+o) Omni Mode
+- Listen to all/base channels
+
+o) Program (aka Patch, Instrument, Preset, ..)
+- 127 Programs per bank
+- Each Program is an instrument, or sound effect, ...
+
+o) Bank
+- Set of Programs, select via controller msg
+- Bank Select does not change 
+
+o) GM - General Midi Standard
+- Set of standard midi sound programs
+- GM Mode can be enabled/disabled by SysEx msg
+
+o) Running Status
+- All data bytes after a status msg belong to same status message
+
+o) Expression
+- Volume factor, volume is used to modify individual devices, expression to set a volume percentage
+
+o) Chorus
+- Same note with slightly different pitches
+
+-- Messages --
+o) Status Message
+- first byte with high MSB, message type (9-F), channel (0-F)
+- Data-bytes
+- Message Type F broadcasts on all channels
+
+o) Note On
+- send note on, note (0-127) + velocity (0-127)
+- default velocity 64 if not supported by sender
+- if velocity = 0, message is note off
+  
+o) Note Off
+- note (0-127) + release time (0-127)
+- default release time 64 if not supported by sender
+- depends on hold pedal
+  
+o) Aftertouch
+- Pressure of one note, can be used for vibrato effects
+
+o) Realtime Messages
+- only one byte, can occur even during events
+
+o) Channel Pressure
+- overall average pressure for all notes of the channel, like aftertouch for all notes
+
+-- Special Receiver Capablilities --
+- Realtime Messages handling 
+- Running Status (buffer status)
+- Bank Nr buffer
+

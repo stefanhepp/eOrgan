@@ -1,0 +1,49 @@
+Standards
+---------
+
+o) AGO Specs
+- Pedalboard
+    32 keys (C - g'), 30 keys (C - f')
+    Radiation, Concavity: 260cm
+    Heelboard/Toeboard: 68cm
+    Length black keys: 16.5cm
+    Height black keys above white keys: 2.54cm at center, others slightly higher
+    Width white keys: 2.2cm
+    Radius black keys, front: 260cm
+    Distance white keys: 6.35cm
+    Distance octave: 44,45cm
+    Force to sound key: 1.2 - 1.4 kg
+- Arrangement of stops, combination pistons
+    Divisions left to right: Pedal, swell, (manuals), great, choir, positiv; Others depend on space
+    Bottom to Top: Coupler, Sub/Super-Octave, Flues, Mixtures, Reeds (Red)
+    Lower Pitches below/before higher Pitches
+    Louder Stops below/before Softer Stops at the same pitch level
+
+
+o) Other, Common
+- Swell Pedals, pistons
+    Left to right: Choir swell pedal (I), Swell pedal (III), Crescendo pedal
+    Pedal combination pistons: common pistons left, pedal pistons right
+- Manuals
+    Top to Bottom: Positiv/Solo, Swell, Great, Choir/Rückpositiv
+    Divisions alternative left to right: Great, choir, swell, pedal
+    Centered at d#
+    Heigth of second keyboard over first: 6cm
+    Indent second keyboard: 100mm
+    Length black keys: 80mm
+    White keys to black keys: 45mm
+- Stops, pistons
+    Coupler green, Tutti/FF/.. red
+    Travel: 17-40mm, dialeter: 25-35mm, Length: 30-60mm, Plug: 8mm
+- Toe Pistons
+    Travel: 7mm, Angle: 70°
+    Heigth: 45-55mm, diameter head: 40-55cm, diameter baseplate: 55mm, diameter base: 30mm
+- Expression shoe
+    Size: 28x11cm
+    Angle: 55°-25° (?)
+- Organ Bank
+    Common height: 58-76cm, standard height: 65-67cm
+    Heel Rest: top above floor: 22cm, behind front of seat: 70-170mm
+- Console
+    Height of keys of first manual over white pedal keys: ~75cm
+    Leading edge first manual to edge of pedal keys: ~30cm

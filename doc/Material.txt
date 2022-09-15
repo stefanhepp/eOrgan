@@ -1,0 +1,63 @@
+---- Pedal ----
+o) Tasten: 29 Keys, Kiefer/Esche, 2.5cm 
+  29x	82 x 3x2.5cm hell
+  17x	65 x 3x2.5cm hell
+  12x	18 x 6x2.5cm dunkel/hell+lack (= 24x 18x3x2.5cm)
+
+o) Rahmen: Kiefer 2cm
+  4x	48 x 10x2cm
+  2x	85 x 10x2cm
+  4x	65 x 12x2cm
+  1x	1m x 12x2cm (2xToeboard)
+  2x	12 x 12x2cm
+
+o) Struktur: Fichte,Kiefer
+  2x	90 x 10x2cm
+  2x	10 x 10x2cm
+  2x	52 x 12x2cm
+  2x	46 x 3x2.5cm
+  4x	 8 x 3x2.5cm
+  2x	62 x 2x2.5cm
+  4x	62 x 0.5x3cm
+  2x	46 x 1cm halbrund
+  31x	10 x 1cm rund
+  29x	2.5 x 0.6cm rund
+
+o) Sonstiges
+  4x	12 x 10x0.3cm Blech
+  2x	46 x 2cm Filz grün/blau
+  58x	10 x 2cm Filz grün/blau
+  29x	2 x 2cm Filz grün/blau
+  2x	5cm Scharnier
+  29x	4x0.2cm Stahlnagel
+  29x	7.5 x M8 Feder
+
+  ------------------
+  3x	2m x 10x2cm Kiefer
+	 1x 4x48
+	 1x 2x82
+	 1x 2x90+2x10 + 2x 58x2x2.5
+  2x	2m x 12x2cm Kiefer
+	 1x 3x65
+	 1x 1x65+2x55+2x12
+  1x	1m x 12x2cm Kiefer (2x Toeboard)
+  6x	2m x 3x2.5cm Esche
+	 5x 3x65
+	 1x 2x65+1x46
+  14x	2m x 3x2.5cm Kiefer
+	12x 2x82+2x18
+	 2x 2x82+4x8
+	 1x 1x46+1x82
+  1x	2m x  3x0.5cm Kiefer (3x62)
+  1x	1m x  3x0.5cm Kiefer (1x62)
+  4x	1m x 1cm rund Buche
+  2x	1m x 0.6cm rund Buche
+  1x	1m x 1cm halbrund
+  1x	50cm x 100x3mm Blech
+  1x	40cm x 40cm Filz grün/blau
+
+---- Bank -----
+  1x	120 x 30x3cm
+  2x	65  x 30x3cm
+  3x	110 x 10x3cm
+

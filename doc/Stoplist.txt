@@ -1,0 +1,186 @@
+---- Instruments ----
+o) Shared
++ Bourdon	    (32 pedal, 16 +pedal,+great; (sim. stopped diapason, gedeckt))
++ Octave	    (8 pedal; 4 +great,+swell,+choir,+pedal)
++ English Horn	    (16 pedal,great; 8 +great,+accomp,pedal)
++ Orchestral Oboe   (8 +choir,+great,solo)
++ Oboe Horn	    (8 pedal,great)
++ Concert Flute	    (8 +pedal,+great,+accomp)
++ Gamba		    (8 solo)
++ Viol d'Orchestre  (8 +accomp,+great)
++ Viol Celeste	    (8 +swell,+accomp,+great)
++ Viola		    (8 choir; 4 +accomp,+great)
++ Flute		    (4 +great,pedal,+accomp)
++ Piccolo	    (4 +great,accomp; 2 +swell,+choir)
++ Fifteenth	    (2 +great)
++ Tierce	    (1 3/5 +swell,choir (=Terz))
++ Vox Humana (Ten C)(16 accomp,+great; 8 swell,+great,+accomp(2x),solo; 4 +accomp(2x),+swell)
++ Contra Viole	    (16 pedal,+accomp,+great)
++ Trumpet	    (8 swell,accomp)
+- Harpsicord	    (solo,accomp,great)
++ Harp		    (solo,+accomp)
++ Chimes	    (+great,solo)
+
+o) Bank 1 (Pipe Organ)
++ Untersatz	    (32 pedal)
++ Dulciana	    (16 pedal,choir)
+- Quintaton	    (16 great,pedal)
++ Contra Gamba	    (16 solo)
+- Gamba Celeste	    (8 solo)
+- Gambette	    (4 solo)
++ Principal	    (8 great,pedal; 4 swell; Similar to Open Diapason)
+- Montre	    (8 swell; same as Principal, enclosed (?))
++ Cor de Nuit	    (8 great,choir)
++ Clarabella	    (8 great)
+- Choral Bass	    (4 pedal)
+- Violone	    (16 pedal)
+- Viole da Gamba    (8 swell)
+- Spitz Viola	    (8 great)
++ Diapason	    (16 great; 8 great)
+- Stopped Diapason  (8 swell)
+- Salicional	    (8 swell)
+- Voix Celeste	    (8 swell)
++ Erzähler	    (8 great)
+- Kleine Erzähler II (8 choir)
+- Melodia	    (8 choir)
++ Gedeckt	    (8 great,swell; 4 pedal)
++ Lieblich gedeckt  (16 pedal,swell)
+- Still gedeckt	    (8 pedal)
+- Flute Celeste II  (8 swell)
++ French Horn	    (8 solo)
++ Holzflöte	    (4 pedal)
+- Koppelflöte	    (4 great)
+- Chimney Flute	    (4 swell; Rohrflöte)
+- Flute d'amour	    (4 choir)
++ Rohr Nasat	    (2 2/3 great)
+- Quint		    (2 2/3 swell)
++ Nazard	    (2 2/3 choir)
++ Zauberflöte	    (2 great)
+- Spillflöte	    (2 swell)
+- Larigot	    (1 1/3 swell)
+- Sifflöte	    (1 swell)
+- Mixture V	    (2 2/3 great)
+- Mixture III	    (2 2/3 pedal,swell)
+- Fourniture IV	    (2 swell)
+- Fourniture III    (2 pedal)
+- Scharff IV	    (2 swell)
+- Scharff III	    (1/1/3 great,pedal)
+- Plain Jeu IV	    (1 1/3 great)
++ Contra Fagotto    (32 pedal; (=Contra Bassoon))
+- Contre Trumpet    (16 swell)
++ Bombarde	    (16 pedal; 8 solo)
++ Bassoon	    (16 choir; (=Fagott))
+- Festival Trumpet  (8 solo)
++ Trompette	    (8 pedal,swell)
+- Petite Trompette  (8 swell)
+- Trombone	    (16 pedal,swell (=Posaune))
+- Corno di Basseto  (8 choir)
+- Tromba	    (8 great,pedal)
++ Clairon	    (4 great,pedal,swell,choir)
++ Celesta	    (4 solo,accomp (sim. chrysoglott))
+
+o) Bank 2 (Electronic Organ, Wurlitzer)
++ Tuba Profunda	    (16 +pedal,+great,solo)
++ Harmonic Tuba	    (8 +pedal,+accomp,+solo)
++ Diaphone	    (32 pedal, 16 +pedal;)
++ Diaphonic Diapason (16 pedal,great, 8 +pedal,+accomp,+great (=sim. Principal/Open Diapason))
++ Tibia Clausa	    (8 +pedal,+accomp,+great,solo)
++ Clarinet	    (8 +pedal,+accomp,+great)
++ Octave Celeste    (8 +great; 4 +accomp)
++ Cello		    (8 +pedal)
++ Saxophone	    (8 accomp,great)
++ Twelth	    (2 2/3 +accomp,+great,solo)
++ Chrysoglott	    (solo,+great,+accomp; sim. Celeste)
++ Glockenspiel	    (+solo,pedal)
++ Vibraphone	    (+solo,great)
++ Musicbox	    (+solo)
++ Rhodes MK II	    (+swell,great Effects by general effects; Choir only)
++ Hammond B3/B4	    (+Great,+Swell,+Pedal: Preset 1..5; Percussion 2nd/3rd/Soft/Fast,vibrato/chorus/leslie using effects panel)
++ Piano		    (+accomp,+great,solo)
++ Honkytonk Piano   (+accomp,+great,solo)
++ Bass Drum	    (+pedal)
++ Kettle Drum	    (+pedal)
++ Snare Drum	    (+pedal,+accomp)
++ Crash Cymbal	    (+pedal)
++ Cymbals	    (+pedal)
++ Marimba	    (+accomp,+great)
++ Tambourine	    (+accomp)
++ Castanets	    (+accomp)
++ Wood Block	    (+accomp)
++ Tom Tom	    (+accomp)
++ Xylophone	    (solo,great)
+- Sleigh Bells	    (solo)
++ French Accordion  (+solo)
+- Accordion	    (solo)
+- Banjo		    (accomp)
+- Kalimba	    (accomp)
++ Koto
+- Musette
+- Sitar
+- Harmonica
+- Guitar
+- Jazz guitar
+- Rock-guitar
+- Second Touch	    (accomp)
+    - 8' English Horn
+    - 8' Harmonic Tuba
+    - 8' Clarinet
+    - Chimes
+    - Marimba
+    - Triangle
+    - Swell/Choir
+    - Great/Choir
+- Second Touch	    (solo)
+    - 16' English Horn
+    - 16' Tuba Profunda
+    - 8' Clarinet
+
+
+---- Other Instruments ----
+o) Rhodes 
+- Vibrato: Speed, Intensity
+  (Tremolo or later Stereo Panning)
+
+o) Wurlitzer
+    
+
+o) Hammond
+- Lowest Octave:
+  C: Cancel Presets
+  C# - A: Presets
+  B flat: Use first drawbar set
+  B: Use second drawbar set
+- 5 Drawbar sets
+  2 Drawbar sets: upper keyboard (B, B flat)
+  1 Drawbar set: Pedal (6 drawbars)
+  2 Drabwar sets: lower keyboard (B, B flat)
+  Per set: 9 drawbars, range 0..8 (0: off, 8: full on); >8' red, octaves grey, other black
+      16' (red), 5 1/3' (red), 8' (grey), 4' (grey), 2 2/3' (black), 
+      2' (grey), 1 3/5' (black) , 1 1/3' (black), 1' (grey)
+  Registrations: 9-digit sequence per set of drawbars
+- Percussion: Only available with B (second drawbar set)
+  Percussion disables 8. (black) drawbar (sound of percussion instead of 8 )
+  Adds 2nd, 3rd overtones to attack envelope of notes, fades quickly
+  4 Tablets, right side (front/back):
+    - Percussion Off/On
+    - Percussion Volume: Normal/Soft
+      Normal: fades, harder/louder
+      Soft: does not fade, softer
+    - Percussion Delay: Slow/Fast
+    - Percussion Harmonic Selector: Second/Third
+      Second: Percussion one octave higher
+      Third: Percussion one octave + fifth higher
+- Left side:
+  3 Tablets:
+    - Volume: Normal/Soft
+    - Vibrato Swell On/Off
+    - Vibrato Great On/Off
+  Vibrato/Chorus Dial: 
+    V1: least amount of vibrato
+    C1: least amount of chorus
+    V2 (standard), C2, V3, C3
+- Volume Pedal
+- Leslie speaker
+  - Spin on/off switch
+  - Fast/Slow switch
+

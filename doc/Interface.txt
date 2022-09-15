@@ -1,0 +1,271 @@
+---- Specification ----
+- 3 manuals (61 keys), pedalboard (29 keys)
+- 12 toe studs, 3 pedals (choir/swell, cresc.)
+- 64 drawknobs, 3 banks
+- Tremolo/Vibrato for II,III,P
+- 57 pistons
+
+---- Interface ----
+o) Pedal
+- 29 Pedale, C - e
+- Switch: On/Off/Setup
+- Rear:
+  - Midi-Out-Buchse
+  - VCC 5V (Buchse)
+
+o) Frame
+- Front, Pedale
+  - 3 Pedale: Links: Chor Schwellerpedal, Mitte: Schwellwerk Schwellerpedal, Rechts: Crescendo Pedal
+  - 16 toe studs: 4 Hauptsetzer (Links), 4 Pedal-Setzer (Rechts), 
+    II/P, I/P, Seq. Prev/Next (rechts neben Schweller), Turn page, 3 programmable pistons (links neben Schweller)
+- Front, Weitere
+  - Beleuchtung Pedal (5 Weiß)
+  - 2xRiegel Frontklappe (oben)
+  - 2xBoxen-Verkleidung (über Setzer)
+- Rear, PC
+  - VCC 220V
+  - USB, LAN, VGA, PS2
+  - SPDIF, Box, LineOut, Mic, Midi-In/-Out/Gameport
+- Rear, Weitere
+  - VCC 220V
+  - Riegel Konsole-, Gehäusedeckel
+  ? Amp In (loopback Soundcard?)
+  ? Amp Out/Boxen 2.1/5.1
+
+o) Console
+- Manual
+  - 3 Manuale a 61 Tasten C - C (Kanaleinstellung intern on controller)
+  - 50 pistons
+- Front, Main (links)
+  - Main Key Lock (Pwr Main/Pwr PC)
+  - Pwr Main On/Off (+ Main Pwr LED)
+  - Pwr PC (Taster, + PC Pwr LED, +HDD Led)
+  - Pwr Audio On/Off (+ Audio LED)
+  - Lights On/Off
+  - Footlights On/Off
+  - Main Volume (0-100%)
+  - Reverb (0-100%)
+- Front, LCD Control (rechts)
+  - LCD Modul 4x40, Blau, 3.73mm Ziffernhöhe
+  - OK, Esc, Back, Reset, Up/Down/Left/Right, Quick-Key 1,2,3,4 (per LCD-Row), PgUp, PgDn, Main
+  - Dial-Rad (Puls-geber)
+- Front, Connectors 
+  - 2x Kopfhörer, +2x Volume (stereo, log. 10k)
+  - 2x USB 2.0
+- Rear
+  - VCC (Standalone only)
+  - Midi Out
+  - Midi In (to Manual)
+
+o) Setzer, Koppler Spieltisch
+- Effects (links), Taster
+  - Tremolo, Vibrato/Chorus (+LED, per I,II,III)
+  - Speed Slow/Fast (Taster +LED, global, individual settings only per comb.setup; slow+fast disabled: normal speed (?))
+  - Slow Transition (Taster, +LED, global, affects transition for tremolo/vibrato and leslie)
+  - Leslie On (+Led, enables additional leslie vibrato effect, globally (affected divisions configured per menu))
+  - Leslie Fast (+Led, switch to fast vibrato, transition speed configured per menu, depends on Slow transistion switch)
+  - Menu (Effects Menu)
+  - Setzer: 1, 2, 3, 4, 5, 6, C, R (affect only Effects)
+  - Amount (Poti, global, Settings per Division/Effect über LCD)
+- Coupler (links), Taster mit LED
+  - Generell:
+    - CR: Crescendo, Crescendo Pedal Registrierung zu Registern dazu setzen
+    - Off: Unison Off, Manual spielt nicht auf eigener Division 8' (betrifft nicht 16'/4' Koppler, CR)
+    - 4': Oktav-Koppel, 16': Suboktav-Koppel
+    - Split pedal: Split pedal, default coupler control upper half, lower half is P'
+  - Schwellwerk (9): II/III, I/III, P/III, 4' II/III, 4' I/III, 16', 4', Off, CR/III
+  - Hauptwerk (11):  III/II, I/II, P/II, 16' III/II, 16' I/II, 4' III/II, 4' I/II, 16', 4', Off, CR/II
+  - Chor (11):	     III/I,  II/I, P/I,  4' P/I,  16' II/I,  16' III/I, 4' III/I,  4' II/I, 16', 4', Off, CR/I
+  - Pedal (13):	     I/P, II/P, III/P, 4' I/P, 4' II/P, 4' III/P, 4',  Off, CR/P, II/P', I/P', Off P', Split P'
+  - Setzer: 1, 2, 3, 4, 5, 6, C, R (affect only Coupler)
+- Setzer (rechts), Taster (ohne LEDs)
+  - Generell
+    - K: Koppler + Effekte
+    - Global: Alle Divisions + K
+    - Effekte bei Stops dabei, Effekte immer auf alle Bänke einer Division
+    - Alle aktiven Stops aller Bänke werden gespielt, unabhängig von Bank-Select
+  - 8 Setzer global, übernimmt alle Divisions, + Koppler falls SetK, ändert/setzt nur aktive Bank
+  - 8 programmable pistons 
+  - 8 Presets: Lädt Global/Div. Setzer, ..
+  - Reset (Global,I,II,III,P,K), aktuelle Stops verwenden
+  - Clear (Global,I,II,III,P,K), alle Stops/Koppler deaktivieren
+  - Bank Select (B1,B2,B3, + LED): Stops affect Bank, aktuelle Bank für Set/Setzer/Koppler/R/C/CR
+  - Bank/Set (S/B, global, + LED): Set übernimmt aktuelle/alle Bänke; Setzer/Clear/Reset ändert nur aktuelle/alle Bänke
+  - Bank/Koppler (K/B, global, + LED): Koppler ändert nur Koppel auf aktueller Bank/allen Bänken
+  - Set Koppler (K/S, global, + LED): Set übernimmt auch Koppler; Setzer ändert Koppler, falls gesetzt
+  - Couple Global (G/S, global, + LED): Set stores registration from all stops on all/active banks to divisional pistons, activates stops for divison
+    only (without division coupler)
+  - Clear Global (Global, + LED): Clear all global single register links (LED shows if any are active)
+  - Set (global, + LED), Druck auf Setzer übernimmt aktuelle Registrierung
+  - Hold (global, + LED), Registrierung erst ändern, wenn Hold deaktiviert
+  - Add (global, + LED), bei Set: gespeicherter Setzer addiert immer; Sonst: Setzer addiert wenn Add aktiv
+  - Clear (Global, + LED), wie Add, deaktiviert alle gesetzten Register
+  - Menu, ruft Setzermenü auf (Save,Load,Transpose,Crescendo,Effects,Sequencer..)
+  - Sequencer next, prev
+  - Page next, prev
+- Taster (unter Manualen), Taster rund
+  - Generell:
+    - PP,P,F,FF mit LED, ändert nicht Registrierung/Setzer, überschreibt Setzer/Stops
+    - Alle anderen ohne LED, setzen Status in Panel
+    - Setzer: gleicher Setzer wie in Panel, optional (per Menü) unabhängig für mehr Kombinationen
+    - 1-4: Setzerplätze, C=Clear, R=Reset
+  - Schwellwerk (22): Progam: 1, 2, ,3 ,4, 5, 6, 7, 8; Page Turn prev/next; Schwell: I/III, II/III PP, P, F, FF, 1, 2, 3, 4, C, R
+  - Hauptwerk (22):   Global: PP, P, F, FF, 1, 2, 3, 4, C, R; Seq  prev/next; Great: PP, P, F, FF, 1, 2, 3, 4, C, R
+  - Chor (24):	      Pedal: II/P, PP, P, F, FF, 1, 2, 3, 4, C, R; Chor: III/I, II/I, P/I PP, P, F, FF, 1, 2, 3, 4, C, R
+
+o) Todo, or per menu only
+- Solo:
+  - 12 Instruments
+  - Only one active on/off
+  - Volume control: off/same as coupled division/crescendo pedal
+- Piano/E-Piano/.. -> Swell; Harp, Hammond,. -> choir
+- Hammond: 
+  - Swell Preset 1..6
+  - Great Preset 1..6
+  - Pedal Preset 1..3
+  - Menu
+  - Leslie on,fast,effect on hammond only
+- Setzer:
+  - Select stop from all divisions for divion (coupler per stop)
+
+o) only per menu
+- I/P Foot Piston as sustain piston: per menu
+- Second Touch: Add Effects, Add Coupler using Second-Touch/Aftertouch
+- Percussion Reiterate: per Menu
+
+
+---- Stops (104 Stops, + 12 Solo Stop-pistons)----
+o) Solo (10,+6)
++ 8 Bombarde		+ French Accordion
+- 4 Gambette		+ Accordion
++ 8 Gamba		+ Vibraphone
+- 8 French Horn		+ Musicbox
+- 8 Vox Humana II	s
+- 16 Contra Gamba	+ Glockenspiel
++ 4 Celesta		+ Chrysoglott
++ 8 Harpsicord		s
++ 8 Harp		s
++ 8 Chimes		s
+
+o) Swell (26,+ )
++ 4 Clairon		+ 4 Octave Celeste
++ 8 Trumpet		+ 8 Saxophone
+- 16 Trombone		+ 16 Tuba Profunda
+- 2 2/3 Mixture III	+ Chrysoglott
++ 1 1/3 Larigot		s
++ 1 3/5 Tierce		s
++ 2 Piccolo		s
++ 2 2/3 Rohr-Nasat	+ 2 2/3 Twelth
++ 4 Octave              s
++ 4 Vox Humana (Ten C)	s
+- 4 Chimney Flute	+ Snare Drums
+- 4 Koppelflöte		+ Tom Tom
+- 4 Spielflöte		+ Wood Block
+- 8 Stop'd Principal	+ Castanets
+- 8 Flute Celeste II	+ Tambourine
++ 8 Gedackt		+ Marimba
++ 8 Salicional		+ Koto
++ 8 Voix Celeste	+ Kalimba
++ 8 Vox Humana (Ten C)	s
+- 8 Orchestral Oboe	s
++ 8 Viol Celeste	s
++ 8 Viola da Gamba	+ Hammond Percussions
+- 16 Lieblich Gedackt	+ Hammond
+- 16 Vox Humana		s
+- 16 Contra Viol	s
++ 8 Harp		s
+
+o) Great (26,+ )
++ 4 Clairon		+ 8 Clarinet
+- 8 Tromba		+ 8 Harmonic Tuba
++ 1 1/3 Scharff III	+ 16 Tuba Profunda
++ 2 Fifteenth		s
+- 2 2/3 Mixture III	+ 2 2/3 Twelth
++ 4 Piccolo		s
++ 4 Octave              s
++ 4 Viola		s
++ 4 Flute		s
+- 8 Cor de Nuit		+ 4 Octave Celeste
+- 8 Clarabella		+ Sleigh Bells
++ 8 Erzähler		+ Xylophone
++ 8 Gedackt		+ Marimba
++ 8 Vox Humana (Ten C)	s
++ 8 Viol'd Orchestre	s
++ 8 Viol Celeste	s
++ 8 Concert Flute	s
++ 8 Orchestral Oboe	s
++ 8 Oboe Horn		+ 8 Tibia Clausa
++ 8 English Horn        s
+- 8 Principal		+ 8 Diaphonic Diapason
+- 16 Diapason		- 16 Diaphonic Diapason
+- 16 Quintaton		+ Hammond
++ 16 Vox Humana		s
+- 16 English Horn       s
++ 16 Bourdon            s
+
+o) Choir (26,+ )
++ 4 Clairon		+ 8 Clarinet
++ 8 Basset Horn		+ 8 Harmonic Tuba
++ 8 Trumpet		s
+- 16 Bassoon		s
+- 1 3/5 Tierce		s
++ 2 Zauberflöte		s
++ 2 Piccolo		s
++ 2 2/3 Nasat		- 2 2/3 Twelth
++ 4 Vox Humana (Ten C)	s
++ 4 Octave              s
++ 4 Viola		s
++ 4 Flute		s
+- 4 Flute d'Amour	+ 8 Rhodes
+- 8 Melodia		+ 8 E-Piano
+- 8 Kleine Erzähler II  + 8 Piano
+- 8 Cor de Nuit		+ 8 Honkytonk Piano
++ 8 Vox Humana (Ten C)	s
+- 8 Viola		s
++ 8 Viol'd Orchestre	s
++ 8 Viol Celeste	s
++ 8 Concert Flute	s
++ 8 Orchestral Oboe	s
+- 8 Oboe Horn		+ 8 Tibia Clausa
++ 8 English Horn        s
+- 8 Principal		+ 8 Diaphonic Diapason
++ 16 Dulciana		s
+
+o) Pedal (26,+15)
++ 4 Clairon		+ 8 Clarinet	
++ 8 Trumpet		+ 8 Harmonic Tuba
+- 16 Posaune		s
++ 16 Trombone		+ 16 Tuba Profunda
++ 16 Bombarde		+ 16 Diaphone
+- 32 Contra Bassoon	- 32 Diaphone
+- 2 Fourniture III	+ Bass Drum
+- 2 2/3 Mixture III	+ Kettle Drum
++ 4 Flute		+ Snare Drum
+- 4 Choralbass		+ Crash Cymbals
++ 4 Octave              s
++ 8 Gedackt		+ Cymbals
++ 8 Concert Flute	s
+- 8 Viol'd Orchestre    s
++ 8 Orchestral Oboe     s
+- 8 Oboe Horn		+ 8 Tibia Clausa
++ 8 English Horn        s
++ 8 Principal		+ 8 Diaphonic Diapason
+- 16 Violone		s
+- 16 English Horn       s
+- 16 Lieblich Gedackt	
++ 16 Cello		s
+- 16 Quintaton		- 16 Diaphonic Diapason 
++ 16 Dulciana		+ Hammond
++ 16 Bourdon            s
++ 32 Contra Bourdon	s
+
+--- Removed ---
+o) Solo
+- 2 Piccolo		s
+- 8 Festival Trumpet	8 Gamba
+
+o) Great
+- 2 Piccolo
+
+o) Swell
+
