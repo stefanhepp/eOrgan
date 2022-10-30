@@ -1,0 +1,148 @@
+---- Main Connector Groups ---
+o) Pedal
+> Midi-Out   (Din5)
+<  Power 5V+  (Buchse)
+
+O) Internal Connectors
+- 8xPwr Conn.
+  > VCC 5V                                    1
+  = GND                                       2
+  < PWR Main                                  2
+  > Beleuchtung Spieltisch VCC+               2
+  = Shortcut "Connected"                      1
+- 36x Centronics Connector (34pol)
+  < Beleuchtung On/off Signal to Relais       1
+  > Midi In Pedal                             1
+  > IO 3xPedal,8xFußsetzer                    11
+  < Midi Out -> PC                            1
+  < Volume                                    1
+  < Boxen On/off                              1
+  < Reverb                                    1
+  > Line Kopfhörer                            2
+  < PC Pwr                                    2
+  < PC Reset                                  2
+  > PC PWR LED                                2
+  > PC HD LED                                 2
+  = 2xUSB PC (Keyboard,Mouse,Setzer,..)       8
+
+
+--- Internal Connectors ---
+o) Stops Connector (34pol)
+ 1: VCC -> LED
+ 2: GND <- Taster
+ 3-34: n: Taster to GND, n+1: LED-
+
+o) Stopboard Connector (14pol)
+ 1: = GND
+ 2: = GND
+ 3: > Bank Select/Register
+ 4: > Write(high)/Read(low)
+ 5: > A4
+ 6: > Read Enabled/LED Data (Write High)
+ 7: > A3
+ 8: < Interrupt/Data (Write low, Read High)
+ 9: > A2
+10: > Koppel/Setzer Enable (low active)
+11: > A1
+12: > VCC 5V
+13: > A0
+14: > VCC 5V
+
+o) Panel Connector (14Pol)
+ 1: = GND
+ 2: < VCC
+ 3: = GND
+ 4: < VCC
+ 5: < Reset
+ 6: > TxD
+ 7: > MOSI
+ 8: < RxD
+ 9: < MISO
+10: ?
+11: < SCK
+12: ?
+13: - ?VCC Lcd
+14: -
+
+o) LCD Connector (18pol, EA DIP204-4)
+ 1: = GND
+ 2: = D3
+ 3: = VCC 5V
+ 4: = D4 (D0)
+ 5: < Kontrast
+ 6: = D5 (D1)
+ 7: < RS/CS Befehl/Daten (Low for Chip Select in Serial Mode)
+ 8: = D6 (D2)
+ 9: < RW H=Read, L=Write (Data input in Serial Mode)
+10: = D7 (D3), MSB
+11: < SCLK Enable (fallende Flanke) (Clock in Serial Mode)
+12: -
+13: = D0, LSB (Data Out in Serial Mode)
+14: < RESET (Low Active, interner Pullup 10K)
+15: = D1
+16: = A Led Beleuchtung +
+17: = D2
+18: = C Led Beleuchtung -  
+
+o) LCD Keys Connector (12pol Pinheader)
+ 1: = GND
+ 2: = GND
+ 3: > Kontrast Poti In
+ 4: < Kontrast Poti Out
+ 5: < T1
+ 6: < T2
+ 7: < T3
+ 8: < T4
+ 9: < T5
+10: < T6
+11: < T7
+12: < T8
+
+o) Impuls Connector (Drehimpulsknopf, 5Pol)
+ 1: < A
+ 2: < C
+ 3: < B
+ 4: < P1
+ 5: > P2
+
+o) Control Connector (20pol)
+ 1: > VCC
+ 2: = GND
+ 4: < Pwr Main Led
+ 5: < Pwr Light Led
+ 6: > Pwr Main
+ 7: < Pwr Light Sw
+ 8: < Pwr Main
+ 9: < Hdd Led
+10: > Pwr Sw
+11: > Hdd Led
+12: < Pwr Sw
+13: > Reset Sw
+14: < Boxen Sw
+15: < Reset Sw
+16: < Boxen Led
+17: > Pwr Led
+18: < Pwr Led
+19: < Reverb
+20: < Volume
+
+o) Koppel Register
+
+o) Data Connector
+
+-- Onboard Connector --
+o) Register (2x)
+> 1x Register
+< 2x Drawknob
+
+o) Controller
+= 2x Register
+< 1x Koppel
+< 3x Midi-In
+> 1x Midi-Out
+= 1x Panel
+= 1x Control
+< 1x Koppel
+= 1x Data
+
+

@@ -34,10 +34,10 @@ o) Other, Common
     White keys to black keys: 45mm
 - Stops, pistons
     Coupler green, Tutti/FF/.. red
-    Travel: 17-40mm, dialeter: 25-35mm, Length: 30-60mm, Plug: 8mm
+    Travel: 17-40mm, diameter: 25-35mm, Length: 30-60mm, Plug: 8mm
 - Toe Pistons
     Travel: 7mm, Angle: 70°
-    Heigth: 45-55mm, diameter head: 40-55cm, diameter baseplate: 55mm, diameter base: 30mm
+    Height: 45-55mm, diameter head: 40-55cm, diameter baseplate: 55mm, diameter base: 30mm
 - Expression shoe
     Size: 28x11cm
     Angle: 55°-25° (?)

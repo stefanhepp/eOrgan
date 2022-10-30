@@ -100,11 +100,12 @@ Dictionary, lexicon
 - Spielhilfen
   Koppler, Setzer, 
 
-- Koppler, coupler
-  Koppel a/b (a to b): b spielt zusätzlich a, in Division von b (um nur Register von a mit Manual b zu spielen: Koppel a/b, Unison Off bei b)
+- Koppler, coupler ("a/b")
+  Koppel a/b (a to b): b spielt zusätzlich a, in Division von a (um nur Register von a mit Manual b zu spielen: Koppel a/b, Unison Off bei b)
+  "a/b 4'": a wird eine Oktave höher 
   Meistens als Registerzüge oder Tabs über Manualen
 
-- Unison Off
+- Unison Off ("Off")
   Register einer Division abschalten (betrifft nicht Koppeln; Unison Off + 8" spielt Division eine Oktave höher)
 
 - Setzer, combination piston
@@ -118,6 +119,10 @@ Dictionary, lexicon
   Setzer unter Manualen, pro Division, oder Global (bei Great), Reversibles (togglen Zustand)
   Für Setzer, Koppler, Setup
   Reihenfolge: Koppler, PP, P, MF, F, FF, 1, 2, 3, 4, 5, C (Clear), Set
+  - "CR": aktiviert Crescendo Pedal für eine Division
+  - "C": Clear, setzt alle Register zurück (global, Division)
+  - "Hold": Register Änderungen werden nicht übernommen, bis Hold deaktiviert wird
+  - "Set": Drücken eines Setzers speichert aktuelle Register für diesen Setzer
 
 - Sequenzer
   Durchläuft Registerkombinationen, meist 2 Tasten (vor, zurück)
@@ -132,10 +137,10 @@ Dictionary, lexicon
   Reguliert die Lautstärke von zugeordneter Division (durch Abdämpfen)
   Links: Chor, Mitte: Positiv
 
-- Registerschweller/Walze, crescendo pedal
+- Registerschweller/Walze, crescendo pedal ("CR")
   Zuschalten von Registern, leise auf laut, auf alle Divisionen
   Setzer von leise auf Laut, Rechts von Schwell-Pedalen
-
+  
 ----- Pfeifen -----
 - Mensur, pipe scale, taille
   Maße, die die Klangfarbe bestimmen (Längenmensur, Weitenmensur,..)

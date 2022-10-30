@@ -1,56 +1,49 @@
+Overview
+========
+o) General Features
+- Monitor, Notenständer
+- Keyboard, Mouse
+- Lamp, illumination
 
---- Overview ---
-o) Stops
+o) Devices
+- Audio Mixer board
+- Roland Boutique Synth Slots
+- Roland Fantom Workstation
 
-o) Panel
-- Indicators, Menu
-- Effects (Tremolo, Leslie, ..)
-- Hammond
-- (Special) Couplers
-- Solo Stops?? 
-- Split Pedal
-- Combinations, Levels (stored setups), Banks, various modi
-- Each Panel
-    - Menu button -> quick access to menu
-    - Presets
+o) Frontpanel
+- Store Setup (Combinations, couplers, routing, MIDI setup, ..)
+- Control setup of devices (MIDI mapping, ..)
+- Buttons for Synth/global combinations, Split keyboards, ..
+- Buttons for Menu Quick Access, Presets (per Group)
+
+o) Manuals, Thumb Pistons
+- Modular: 1 to 3 manuals + Synth Keyboard
+- Pushbuttons with no LED -> Indicator LEDs on Frontpanel
+- Pushbuttons short/long-press: double functions for Off/Tutti, Octave Coupler/Split, ...
+
 o) Manuals
-- Pushbuttons only, no indicators (indicator lights are on panel)
 - Sequencer, Page Turn, Set
 - Coupler, Clear, Crescendo Enable, Off?, Octave Coupler
 - Combinations, Tutti?
+
 o) Swellpedals
 - Swell/Choir Swell, Crescendo Pedal
 - Pedal combination, coupler pistons
 - Sequencer, Page Turn
 - Global combinations, Programmable
-o) Pedalboard
 
-
--- Stops --
-o) General
+o) Stops
 - 2 programmable stops: like combination piston, can enable any stop in division/all divisions, but is additive
-
--- Panel --
-o) TODO
-- Sequencer, Page Turn, Clear P-III: remove
-
-o) Effects
-
-o) Solo?
-
-o) Hammond
-
-o) Coupler, Split pedal
 
 o) Combinations, Modi
 - Hold: if enabled, only change registration when hold is disabled
 - Set Global (Borrow): if enabled, set division combination will set all stops on all divisions
 - Store Couplers: if enabled, store division/global couplers instead / in addition to stops (2x press, blinks ?)
-- 
 
 
--- Manual thumbpistons --
-o) Swell
+Manual Thumbpistons
+===================
+o) Swell (6 Red, 16 White/Black)
 - Global/Programmable
     - Combinations 1-8
 - Page Turn <, >
@@ -58,27 +51,123 @@ o) Swell
     - Solo/III, II/III, I/III
     - 16'/4': Toggle 16'/4' coupler, Hold + press coupler to enable 16'/4' coupler from division (?)
     - Off: 1x Press: Off Toggle, 2x Press: Tutti
-    - Combinations 1-6, Crescendo Enable (CR), Clear
-o) Great
+    - Combinations 1-5, Clear (C), Crescendo Enable (CR)
+
+o) Great (7 Red, 14 White/Black)
 - Set: Hold + press combination button -> sets current setup (depending on mode either only for division/all divisions)
 - Hold Toggle
 - Clear Global
-- Coupler combinations/Programmable 1-4
+- Coupler combinations/Programmable 9-12
 - Sequencer <, >
 - Great
     - Solo/II, III/II, P/II
     - 16'/4': Toggle 16'/4' coupler, Hold + press coupler to enable 16'/4' coupler from division (?)
     - Off: 1x Press: Off Toggle, 2x Press: Tutti
-    - Combinations 1-6, Crescendo Enable (CR), Clear
-o) Choir
+    - Combinations 1-5, Clear (C), Crescendo Enable (CR)
+
+o) Choir (13 Red, 15 White/Black)
 - Pedal
-    - III/P, II/P, I/P
+    - Solo/P, III/P, II/P, I/P
     - 4'/Split: 1x press toggles 4' coupler, 2x press splits pedal, Hold + press coupler to enable 4' coupler from division (?)
     - Off: 1x Press: Off Toggle, 2x Press: Tutti
-    - Combinations 1-5, Crescendo Enable (CR), Clear
+    - Combinations 1-5, Clear (C), Crescendo Enable (CR)
+- Page Turn <, >
 - Choir
     - Solo/I, III/I, II/I
     - 16'/4': Toggle 16'/4' coupler, Hold + press coupler to enable 16'/4' coupler from division (?)
     - Off: 1x Press: Off Toggle, 2x Press: Tutti
-    - Combinations 1-6, Crescendo Enable (CR), Clear
+    - Combinations 1-5, Clear (C), Crescendo Enable (CR)
+
+	
+Console Controlpanel
+====================
+o) Below-Table Box Left Side: Power, PC
+- PC: Power Btn, Reset Btn, Pwr LED, HDD LED
+- 220V Pwr Console Main
+- 220V Pwr Organ
+- 220V Lamp
+- 6.3mm Stereo Headphones
+- 2x USB A 3.0 
+
+o) Below-Table Box Right Side
+- Mouse pad (?)
+
+o) Pedal Connector
+- 6.3mm Mono Sustain Pedal -> Roland
+- 6.3mm Stereo Expression Pedal -> Roland
+
+o) Front Panel
+- LCD Display
+  - Up,Down,Left,Right
+  - Enter, Esc, Menu, Return
+  - Encoder Knob
+- Page Turn <,>
+- Sequencer <,>
+- Set, Hold, Global Clear
+
+
+o) Power Distribution
+- Main Powerbox: Surge Protection
+   - PC
+   - Roland Fantom
+   - Console Power
+- Console Main
+   - Monitor
+   - Behringer Mixer
+   - Roland SE-02
+   - Lamp
+- Console Organ
+   - 12V Power
+   
+	
+Console Toe Pistons
+===================
+o) Left side
+- Top row: 4 programmable: Set, Hold, Clear (global), Page Turn back
+- Bottom row: 4 Global combinations, Sequencer back
+
+o) Center (swell/expression shoes)
+- Swell III (Swell)
+- Swell I (Choir)
+- Crescendo
+
+o) Right side
+- Top Row: II/P, I/P, Page Turn forward
+- Bottom row: Sequencer forward, 4 Pedal combinations
+
+o) Connectors
+- Mini Din (Data In): 12V DC In, I2C
+- Mini Din (Data Out): 12V DC In, I2C -> Pedal Board
+- MIDI Out
+- Configure Button
+- 10pin flatcable left pistons
+- 10pin flatcable right pistons
+- 5pin JST Swell shoes
+
+o) Configuration
+- Set Midi Channel 1-16
+- Reset Calibrate Swell shoes
+
+
+Pedalboard
+==========
+o) Interface
+- 29 keys (C - e)
+- Power on/off/configure
+
+o) Configure
+- Set Midi Channel 1-16 (lower 16 keys)
+- LED brightness up/down (upper 2 keys)
+
+o) Connectors
+- Mini Din (Data In): 12V DC In, I2C
+- MIDI Out
+- 9-12V DC Power
+
+
+Stops
+=====
+
+
+
 
