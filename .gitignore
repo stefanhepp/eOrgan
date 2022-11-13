@@ -3,3 +3,5 @@
 *.bkp
 *.dtmp
 *.blend1
+\#auto_saved_files\#
+*-backups

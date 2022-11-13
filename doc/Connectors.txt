@@ -1,7 +1,55 @@
----- Main Connector Groups ---
+Main Connector Groups
+======================
 o) Pedal
 > Midi-Out   (Din5)
 <  Power 5V+  (Buchse)
+
+o) 10pin AVR ISP
+ 1: MOSI
+ 2: +5V
+ 3: (NC)
+ 4: GND
+ 5: RESET
+ 6: GND
+ 7: SCK
+ 8: GND
+ 9: MISO
+10: GND
+
+o) DIN-5 MIDI
+ 1: - 
+ 2: GND
+ 3: -
+ 4: 5V
+ 5: TX
+
+o) 10pin Board Connector
+ 1: > UART TX
+ 2: > VCC 5V 
+ 3: < UART RX
+ 4: > VCC 12V 
+ 5: < Interrupt (Open Collector)
+ 6: > VCC 12V 
+ 7: > I2C SCL
+ 8: = GND
+ 9: = I2C SDA
+10: = GND
+
+o) 6pin MiniDIN Board Connector
+ 1: = I2C SDA
+ 2: < Interrupt (Open Collector
+ 3: = GND
+ 4: > VCC 5V
+ 5: > I2C SCL
+ 6: > VCC 12V
+
+
+
+
+
+
+Archive
+-------
 
 O) Internal Connectors
 - 8xPwr Conn.
@@ -26,7 +74,6 @@ O) Internal Connectors
   = 2xUSB PC (Keyboard,Mouse,Setzer,..)       8
 
 
---- Internal Connectors ---
 o) Stops Connector (34pol)
  1: VCC -> LED
  2: GND <- Taster
