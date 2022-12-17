@@ -914,7 +914,7 @@
     (property "Reference" "J?" (id 0) (at 132.08 148.5899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x05" (id 1) (at 132.08 151.1299 0)
+    (property "Value" "Swell" (id 1) (at 132.08 151.1299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 129.54 149.86 0)
@@ -1260,7 +1260,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cdbdaf5a-4f5c-4def-9199-0945d415bcc6)
     (property "Reference" "J?" (id 0) (at 93.98 50.8 0))
-    (property "Value" "Conn_02x05_Odd_Even" (id 1) (at 93.98 53.34 0))
+    (property "Value" "ToeLeft" (id 1) (at 93.98 53.34 0))
     (property "Footprint" "" (id 2) (at 92.71 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1321,7 +1321,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e5668fd5-5c1a-4135-9c84-197ad8913ff5)
     (property "Reference" "J?" (id 0) (at 198.12 50.8 0))
-    (property "Value" "Conn_02x05_Odd_Even" (id 1) (at 198.12 53.34 0))
+    (property "Value" "ToeRight" (id 1) (at 198.12 53.34 0))
     (property "Footprint" "" (id 2) (at 196.85 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1365,13 +1365,13 @@
 
   (symbol_instances
     (path "/013ddb12-11ad-42dd-961e-e451a0ddec44"
-      (reference "J?") (unit 1) (value "Conn_01x05") (footprint "")
+      (reference "J?") (unit 1) (value "Swell") (footprint "")
     )
     (path "/cdbdaf5a-4f5c-4def-9199-0945d415bcc6"
-      (reference "J?") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "")
+      (reference "J?") (unit 1) (value "ToeLeft") (footprint "")
     )
     (path "/e5668fd5-5c1a-4135-9c84-197ad8913ff5"
-      (reference "J?") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "")
+      (reference "J?") (unit 1) (value "ToeRight") (footprint "")
     )
     (path "/31bcb6f9-89ee-4aae-8ffe-ddc6900c2917"
       (reference "RV?") (unit 1) (value "R_Potentiometer") (footprint "")
