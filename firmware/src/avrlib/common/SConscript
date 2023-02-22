@@ -1,5 +1,0 @@
-Import("avrEnv")
-
-objs = []
-
-Return("objs")

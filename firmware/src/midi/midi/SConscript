@@ -1,5 +1,0 @@
-Import("avrEnv")
-
-objs = [ avrEnv.Object("midi.c") ]
-
-Return("objs")
