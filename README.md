@@ -1,5 +1,5 @@
 README
-======
+------
 
 This project contains various parts of a midi-organ. The project consists of four
 main parts:
