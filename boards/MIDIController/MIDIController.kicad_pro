@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MidiEncoder.kicad_pro",
+    "filename": "MIDIController.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -334,8 +334,20 @@
   },
   "sheets": [
     [
-      "203cfae3-c134-4f8b-b17f-2675fc7b8ec3",
+      "92e30726-a111-410e-a189-3ef5a23983ec",
       ""
+    ],
+    [
+      "551a3e8a-60dd-49e9-92ec-68dd445f247b",
+      "Power"
+    ],
+    [
+      "5462fee6-2428-4e3a-a87e-5f06517bb085",
+      "Board Connectors"
+    ],
+    [
+      "c4199b48-7185-4e07-8f3c-5bba6f77f3bc",
+      "MIDI Connectors"
     ]
   ],
   "text_variables": {}

@@ -24,3 +24,4 @@ fp-info-cache
 # Ignore Dia and Draw.io backups
 *.dia~
 *.dtmp
+*.drawio.bkp
