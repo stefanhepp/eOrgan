@@ -15,9 +15,11 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 \#auto_saved_files#
+*.lck
 
 # Ignore FreeCAD backups
 *.FCStd1
+*.FCBak
 
 # Ignore Blender backups
 *.blend1
@@ -26,3 +28,12 @@ fp-info-cache
 *.dia~
 *.dtmp
 *.drawio.bkp
+
+# Ignore object binaries
+*.elf
+*.hex
+*.pyc
+*.o
+
+# Ignore editor temp files
+*.swp
