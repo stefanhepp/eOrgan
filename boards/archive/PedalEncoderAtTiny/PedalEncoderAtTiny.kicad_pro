@@ -254,7 +254,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PedalWires.kicad_pro",
+    "filename": "PedalEncoderAtTiny.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -408,7 +408,7 @@
   },
   "sheets": [
     [
-      "3fd2cad3-6e05-4cb8-a7f3-505b018e1cfc",
+      "31308be9-b013-4abe-98e2-32d430dea950",
       "Root"
     ]
   ],
