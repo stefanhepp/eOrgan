@@ -9340,7 +9340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Heatsink:Heatsink_AAVID_576802B03900G"
+		(property "Footprint" "Custom_Heatsinks:Heatsink_Aavid_TO-220_H12.7mm"
 			(at 153.9748 125.73 0)
 			(effects
 				(font

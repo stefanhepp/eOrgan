@@ -1046,7 +1046,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R1"
-			(at 3.81 -1.92 270)
+			(at 3.81 -1.92 -90)
 			(layer "F.SilkS")
 			(uuid "a269051b-1e0d-46f3-a718-0f1d7923a5dd")
 			(effects
@@ -1057,7 +1057,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 3.81 1.92 270)
+			(at 3.81 1.92 -90)
 			(layer "F.Fab")
 			(uuid "e6ee868b-b9da-4ac6-bb40-c5061e53762c")
 			(effects
@@ -1269,7 +1269,7 @@
 			(uuid "dc5966a2-e426-4f44-b3c7-32d807edd76b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 270)
+			(at 3.81 0 -90)
 			(layer "F.Fab")
 			(uuid "25537989-6104-4b6b-9d82-7cec7888cee6")
 			(effects
@@ -7930,7 +7930,7 @@
 		(descr "Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x05 2.54mm double row")
 		(property "Reference" "J8"
-			(at 1.27 -6.1 360)
+			(at 1.27 -6.1 0)
 			(layer "F.SilkS")
 			(uuid "116a10f4-a920-4151-994c-18d431d5a021")
 			(effects
@@ -7941,7 +7941,7 @@
 			)
 		)
 		(property "Value" "BoardCon"
-			(at 1.27 16.26 360)
+			(at 1.27 16.26 0)
 			(layer "F.Fab")
 			(uuid "a7112196-1318-4b61-9eeb-068a6bc85c77")
 			(effects
