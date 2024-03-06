@@ -4266,7 +4266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 180.34 151.638 90)
 			(effects
 				(font
@@ -4688,7 +4688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 52.832 102.87 90)
 			(effects
 				(font
@@ -4969,6 +4969,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 24.13 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20898713-727e-4a42-aa5e-1205bbe5c364")
+		(property "Reference" "#PWR040"
+			(at 24.13 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee7b58e7-ac65-4aeb-bda4-680b66c715a6")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 54.61 63.5 0)
 		(unit 1)
@@ -5036,7 +5102,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS07")
-		(at 254 102.87 0)
+		(at 166.37 76.2 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5045,7 +5111,7 @@
 		(fields_autoplaced yes)
 		(uuid "27e95632-7aef-4b1f-bbcb-35643b8f5113")
 		(property "Reference" "U6"
-			(at 254 93.98 0)
+			(at 166.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5119,7 @@
 			)
 		)
 		(property "Value" "74LS07"
-			(at 254 96.52 0)
+			(at 166.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +5127,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 254 102.87 0)
+			(at 166.37 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +5136,7 @@
 			)
 		)
 		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 254 102.87 0)
+			(at 166.37 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5145,7 @@
 			)
 		)
 		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
-			(at 254 102.87 0)
+			(at 166.37 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +5232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 52.832 68.58 90)
 			(effects
 				(font
@@ -5287,7 +5353,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS07")
-		(at 166.37 111.76 0)
+		(at 165.1 149.86 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5296,7 +5362,7 @@
 		(fields_autoplaced yes)
 		(uuid "337adc4d-830a-4710-b685-cabc847d31b1")
 		(property "Reference" "U6"
-			(at 166.37 102.87 0)
+			(at 165.1 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5370,7 @@
 			)
 		)
 		(property "Value" "74LS07"
-			(at 166.37 105.41 0)
+			(at 165.1 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +5378,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 166.37 111.76 0)
+			(at 165.1 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +5387,7 @@
 			)
 		)
 		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 166.37 111.76 0)
+			(at 165.1 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +5396,7 @@
 			)
 		)
 		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
-			(at 166.37 111.76 0)
+			(at 165.1 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +5666,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS07")
-		(at 254 86.36 0)
+		(at 166.37 111.76 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5609,7 +5675,7 @@
 		(fields_autoplaced yes)
 		(uuid "41f020e0-ba77-4e5d-b120-341e912544ec")
 		(property "Reference" "U6"
-			(at 254 77.47 0)
+			(at 166.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5683,7 @@
 			)
 		)
 		(property "Value" "74LS07"
-			(at 254 80.01 0)
+			(at 166.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5691,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 254 86.36 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,7 +5700,7 @@
 			)
 		)
 		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 254 86.36 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +5709,7 @@
 			)
 		)
 		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
-			(at 254 86.36 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,6 +5764,72 @@
 				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
 					(reference "U6")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4631e103-bd29-4fa6-9cf3-fc6733aff95d")
+		(property "Reference" "#PWR034"
+			(at 24.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db868414-9403-49c6-acdd-f62f5b9d4495")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "#PWR034")
+					(unit 1)
 				)
 			)
 		)
@@ -6318,7 +6450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 208.788 105.41 90)
 			(effects
 				(font
@@ -6770,6 +6902,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 24.13 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60b7354c-ece8-4265-b77a-6502642fe910")
+		(property "Reference" "C6"
+			(at 27.94 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 27.94 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 25.0952 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22d1c1f5-5b1e-4552-9782-14d2b778b389")
+		)
+		(pin "2"
+			(uuid "e1bb9e5d-342c-4e0e-8e96-40ca8418643d")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 196.85 104.14 180)
 		(unit 1)
@@ -6830,6 +7032,72 @@
 			(project "MIDIController-IO-MIDI"
 				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 24.13 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65581b14-d037-44d2-9518-2eded435390a")
+		(property "Reference" "#PWR037"
+			(at 24.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 24.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a853926b-0b4b-466f-82d6-c9b83497acf2")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7092,7 +7360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 91.44 163.322 90)
 			(effects
 				(font
@@ -7135,8 +7403,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 24.13 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d3212bc-3a95-4ef9-962b-d3de7cf3d74f")
+		(property "Reference" "#PWR042"
+			(at 24.13 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d8701c4-12a9-4cb6-bf36-a15495d8c1d9")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS07")
-		(at 165.1 149.86 0)
+		(at 254 86.36 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7145,7 +7479,7 @@
 		(fields_autoplaced yes)
 		(uuid "72652302-311f-4319-a2d5-a165a92ffcf9")
 		(property "Reference" "U6"
-			(at 165.1 140.97 0)
+			(at 254 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7153,7 +7487,7 @@
 			)
 		)
 		(property "Value" "74LS07"
-			(at 165.1 143.51 0)
+			(at 254 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7161,7 +7495,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 165.1 149.86 0)
+			(at 254 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,7 +7504,7 @@
 			)
 		)
 		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 165.1 149.86 0)
+			(at 254 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7513,7 @@
 			)
 		)
 		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
-			(at 165.1 149.86 0)
+			(at 254 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +7805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 91.44 94.742 90)
 			(effects
 				(font
@@ -7605,7 +7939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 180.34 77.978 90)
 			(effects
 				(font
@@ -7884,6 +8218,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 24.13 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "845be1ce-a4a8-43b5-81dc-17b6d423f07a")
+		(property "Reference" "#PWR038"
+			(at 24.13 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8e6b55a-6e5f-4f18-8fc2-c4c1169b9e4b")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 54.61 33.02 0)
 		(unit 1)
@@ -7911,7 +8311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 52.832 33.02 90)
 			(effects
 				(font
@@ -7954,6 +8354,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 24.13 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bdf0f0a-a1bc-430c-9dc1-75cd568015cd")
+		(property "Reference" "C4"
+			(at 27.94 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 27.94 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 25.0952 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b223f59e-a5bd-43fb-b818-4e56fff2faa4")
+		)
+		(pin "2"
+			(uuid "f4392d67-8787-4691-b703-e6397afe2c9e")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 207.01 34.29 180)
 		(unit 1)
@@ -7981,7 +8451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 208.788 34.29 90)
 			(effects
 				(font
@@ -8024,6 +8494,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 24.13 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90809e88-bb13-4b68-b864-f7ec7351b461")
+		(property "Reference" "#PWR036"
+			(at 24.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69730839-896f-4f92-86b0-5a2629395e55")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 91.44 130.81 270)
 		(unit 1)
@@ -8049,7 +8585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 91.44 129.032 90)
 			(effects
 				(font
@@ -8224,6 +8760,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 24.13 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "969b0248-a808-407e-9560-0ea0bc7015ad")
+		(property "Reference" "C2"
+			(at 27.94 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 27.94 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 25.0952 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ca2c1fd-0743-40ed-9e1c-7db8d142695d")
+		)
+		(pin "2"
+			(uuid "e4497fed-3601-4ac3-8727-5c09ba717b83")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 139.7 184.15 0)
 		(unit 1)
@@ -8315,7 +8921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 52.832 171.45 90)
 			(effects
 				(font
@@ -8449,7 +9055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 180.34 113.538 90)
 			(effects
 				(font
@@ -8600,7 +9206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 180.34 42.418 90)
 			(effects
 				(font
@@ -8637,6 +9243,72 @@
 			(project "MIDIController-IO-MIDI"
 				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 24.13 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a74e1bb9-cfd2-4ae8-a495-5f7c59abc354")
+		(property "Reference" "#PWR041"
+			(at 24.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 24.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baf3e34e-ca8a-403a-9009-f76bff77e2b5")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8797,6 +9469,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 24.13 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0f7fa09-ab42-4245-9198-ba80763a8826")
+		(property "Reference" "#PWR039"
+			(at 24.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 24.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 24.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0841ecd1-b9d5-457a-90ef-5c0f25e0bbfb")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 24.13 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6519101-bbd0-4f70-a58a-6553e26a5daf")
+		(property "Reference" "#PWR035"
+			(at 24.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 24.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 24.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1b78841-2ee4-4e57-875a-4cd6ddab9b7b")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 245.11 88.9 0)
 		(unit 1)
@@ -8857,6 +9661,72 @@
 			(project "MIDIController-IO-MIDI"
 				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 24.13 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7c1453d-344d-4551-b3dc-6483d3d7debc")
+		(property "Reference" "#PWR033"
+			(at 24.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 24.13 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 24.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7845cd6e-f03b-450f-b92f-157f3b06119d")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9165,7 +10035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 208.788 143.51 90)
 			(effects
 				(font
@@ -9202,6 +10072,76 @@
 			(project "MIDIController-IO-MIDI"
 				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 24.13 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbcd2875-263e-4883-9403-9e5636345edd")
+		(property "Reference" "C5"
+			(at 27.94 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 27.94 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 25.0952 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63f57d7b-edc6-47c6-89ec-890aee828986")
+		)
+		(pin "2"
+			(uuid "90149473-5b60-4e3f-a08d-e51772b9a921")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9431,7 +10371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 91.44 60.452 90)
 			(effects
 				(font
@@ -9562,6 +10502,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 24.13 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb67092c-a16a-4259-90d4-e97b4935002b")
+		(property "Reference" "C3"
+			(at 27.94 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 27.94 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 25.0952 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50a83ba3-6be5-4470-bbe4-f3caf1f0da89")
+		)
+		(pin "2"
+			(uuid "81e88ee6-f437-46bc-ac48-eefe755c807b")
+		)
+		(instances
+			(project "MIDIController-IO-MIDI"
+				(path "/871a0883-6703-4e38-940c-24ada2de4b33"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 68.58 27.94 0)
 		(unit 1)
@@ -9629,7 +10639,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS07")
-		(at 166.37 76.2 0)
+		(at 254 102.87 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9638,7 +10648,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed6334da-2bc7-452f-bc8f-f76b2469b712")
 		(property "Reference" "U6"
-			(at 166.37 67.31 0)
+			(at 254 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9646,7 +10656,7 @@
 			)
 		)
 		(property "Value" "74LS07"
-			(at 166.37 69.85 0)
+			(at 254 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,7 +10664,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 166.37 76.2 0)
+			(at 254 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,7 +10673,7 @@
 			)
 		)
 		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 166.37 76.2 0)
+			(at 254 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9672,7 +10682,7 @@
 			)
 		)
 		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
-			(at 166.37 76.2 0)
+			(at 254 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9913,7 +10923,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 208.788 69.85 90)
 			(effects
 				(font
@@ -10066,7 +11076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 52.832 137.16 90)
 			(effects
 				(font
@@ -10200,7 +11210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 91.44 24.892 90)
 			(effects
 				(font
