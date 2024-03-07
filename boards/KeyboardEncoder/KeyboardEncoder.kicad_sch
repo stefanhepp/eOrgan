@@ -5169,6 +5169,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 78.74) (xy 219.71 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa06e7d-979f-4eb0-8643-bf8959beea5d")
+	)
+	(wire
+		(pts
 			(xy 215.9 148.59) (xy 219.71 148.59)
 		)
 		(stroke
@@ -5486,6 +5496,16 @@
 			(type default)
 		)
 		(uuid "378da94a-2bf8-43ad-819b-d59dd2a7d1eb")
+	)
+	(wire
+		(pts
+			(xy 227.33 78.74) (xy 232.41 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382fa06c-0dc8-4e99-9153-77f50edc4d0c")
 	)
 	(wire
 		(pts
@@ -6659,16 +6679,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 78.74) (xy 215.9 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e791bd48-3460-4629-b2fa-dbb8c75da13c")
-	)
-	(wire
-		(pts
 			(xy 205.74 109.22) (xy 219.71 109.22)
 		)
 		(stroke
@@ -7509,7 +7519,7 @@
 	)
 	(global_label "TXT_OUT"
 		(shape input)
-		(at 217.17 78.74 0)
+		(at 232.41 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7519,7 +7529,7 @@
 		)
 		(uuid "9d750958-7e3f-4dc9-b977-7032ea33972e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.8961 78.74 0)
+			(at 243.1361 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,6 +7908,74 @@
 			(project "KeyboardEncoder"
 				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19ff4b43-58e3-4dea-a60e-c0ca3a6c525f")
+		(property "Reference" "R6"
+			(at 223.52 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 223.52 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 223.52 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cf9e45d-3040-4941-a12b-2a345bc7c5af")
+		)
+		(pin "2"
+			(uuid "b6458b0c-d8a5-4937-a2e3-a60288249a7d")
+		)
+		(instances
+			(project "KeyboardEncoder"
+				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
+					(reference "R6")
 					(unit 1)
 				)
 			)

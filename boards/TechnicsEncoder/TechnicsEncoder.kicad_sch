@@ -5065,7 +5065,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 80.01) (xy 210.82 80.01)
+			(xy 210.82 80.01) (xy 214.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6185,6 +6185,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 80.01) (xy 229.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ce1d85-b5e1-4b06-a181-5db92edf357b")
+	)
+	(wire
+		(pts
 			(xy 132.08 104.14) (xy 149.86 104.14)
 		)
 		(stroke
@@ -6935,7 +6945,7 @@
 	)
 	(global_label "TXD_OUT"
 		(shape input)
-		(at 213.36 80.01 0)
+		(at 229.87 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6945,7 +6955,7 @@
 		)
 		(uuid "a2697534-d190-4a1f-8534-283aaad39796")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.3885 80.01 0)
+			(at 240.8985 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,6 +8576,74 @@
 			(project "TechnicsEncoder"
 				(path "/bada7ee2-3b4f-486d-8871-f40e51bae2c2"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4838516c-3ebd-4ef1-8a93-cf50de8b36b2")
+		(property "Reference" "R7"
+			(at 218.44 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 218.44 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 218.44 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc241fb3-c92d-4285-af11-05703cc7a3be")
+		)
+		(pin "2"
+			(uuid "462971e9-d093-4b62-b61a-31c7475572ab")
+		)
+		(instances
+			(project "TechnicsEncoder"
+				(path "/bada7ee2-3b4f-486d-8871-f40e51bae2c2"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11187,7 +11265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm_Socket"
 			(at 57.15 115.57 0)
 			(effects
 				(font
