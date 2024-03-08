@@ -8449,7 +8449,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2µ"
+		(property "Value" "0.1uF"
 			(at 173.101 92.583 0)
 			(effects
 				(font
@@ -9131,7 +9131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2µ"
+		(property "Value" "0.1uF"
 			(at 159.131 98.933 0)
 			(effects
 				(font
@@ -10612,7 +10612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2µ"
+		(property "Value" "0.1uF"
 			(at 165.608 112.776 0)
 			(effects
 				(font
@@ -12459,72 +12459,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 132.08 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f969087-0ccb-40f9-aee6-8991fc9583ba")
-		(property "Reference" "#PWR050"
-			(at 132.08 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 132.08 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 132.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3363484d-6dfb-4a57-ac87-1a983c4baabc")
-		)
-		(instances
-			(project "MIDIController-IO-Boards"
-				(path "/06df47e9-b50a-4827-8ccb-76595e56d621"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 20.32 173.99 0)
 		(unit 1)
@@ -13340,72 +13274,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 170.18 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b53f2c19-3600-4741-b5a7-fd36716d2731")
-		(property "Reference" "#PWR054"
-			(at 170.18 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 170.18 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 170.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a59c2c7c-bc82-4f89-94b8-643c4a54d193")
-		)
-		(instances
-			(project "MIDIController-IO-Boards"
-				(path "/06df47e9-b50a-4827-8ccb-76595e56d621"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 151.13 157.48 0)
 		(unit 1)
@@ -13466,6 +13334,72 @@
 			(project "MIDIController-IO-Boards"
 				(path "/06df47e9-b50a-4827-8ccb-76595e56d621"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 170.18 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc072097-8663-468a-bb0d-6afb96e6393c")
+		(property "Reference" "#PWR050"
+			(at 170.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98b7b4ee-b3c9-4f6b-be9e-1810cecf6370")
+		)
+		(instances
+			(project "MIDIController-IO-Boards"
+				(path "/06df47e9-b50a-4827-8ccb-76595e56d621"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -13557,7 +13491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2µ"
+		(property "Value" "0.1uF"
 			(at 165.862 104.648 0)
 			(effects
 				(font
@@ -13841,6 +13775,72 @@
 			(project "MIDIController-IO-Boards"
 				(path "/06df47e9-b50a-4827-8ccb-76595e56d621"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 132.08 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c56a9e8f-b6e3-44ac-b4a9-ad43b6e59403")
+		(property "Reference" "#PWR054"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c64142a0-cb3d-431a-9542-c2b6ea27e0a1")
+		)
+		(instances
+			(project "MIDIController-IO-Boards"
+				(path "/06df47e9-b50a-4827-8ccb-76595e56d621"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -14680,7 +14680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2µ"
+		(property "Value" "0.1uF"
 			(at 110.871 98.933 0)
 			(effects
 				(font
