@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "connection_width|76322497|121463277|a3587cf0-6cc3-42e0-a398-ae1f6c36956c|00000000-0000-0000-0000-000000000000",
-        "connection_width|76361032|121467091|a3587cf0-6cc3-42e0-a398-ae1f6c36956c|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -118,8 +115,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.3,
-        "min_connection": 0.38,
+        "min_clearance": 0.25,
+        "min_connection": 0.3,
         "min_copper_edge_clearance": 0.049999999999999996,
         "min_hole_clearance": 0.39999999999999997,
         "min_hole_to_hole": 0.25,
@@ -181,6 +178,7 @@
       ],
       "track_widths": [
         0.0,
+        0.25,
         0.4,
         1.0
       ],
@@ -486,6 +484,23 @@
         "via_diameter": 1.8,
         "via_drill": 0.8,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.1,
+        "name": "SMD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 1.7,
+        "via_drill": 0.8,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -505,6 +520,10 @@
       {
         "netclass": "Power",
         "pattern": "+3.3V"
+      },
+      {
+        "netclass": "SMD",
+        "pattern": "/SDA_ToeStud"
       }
     ]
   },
@@ -624,6 +643,10 @@
     [
       "06df47e9-b50a-4827-8ccb-76595e56d621",
       "Root"
+    ],
+    [
+      "563c44a9-e62f-4884-9575-68843445bbb7",
+      "Connectors"
     ]
   ],
   "text_variables": {}

@@ -4774,6 +4774,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 123.19) (xy 36.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117e2ca7-70e9-47fe-953b-b6bb6d7837a9")
+	)
+	(wire
+		(pts
 			(xy 118.11 111.76) (xy 118.11 91.44)
 		)
 		(stroke
@@ -5031,6 +5041,16 @@
 			(type default)
 		)
 		(uuid "3761480a-52ae-4ea6-a237-cc399682dfb8")
+	)
+	(wire
+		(pts
+			(xy 52.07 113.03) (xy 52.07 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38eb96a5-811f-4a0a-aaba-2bcdda7180ca")
 	)
 	(wire
 		(pts
@@ -5844,7 +5864,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 113.03) (xy 33.02 113.03)
+			(xy 30.48 113.03) (xy 52.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6281,16 +6301,6 @@
 			(type default)
 		)
 		(uuid "f27692a3-9d8e-4392-b188-b13ba839735f")
-	)
-	(wire
-		(pts
-			(xy 40.64 113.03) (xy 45.72 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f40b6c0c-ab26-42a3-979a-faf626690125")
 	)
 	(wire
 		(pts
@@ -6745,22 +6755,22 @@
 	)
 	(global_label "Interrupt"
 		(shape input)
-		(at 45.72 113.03 0)
+		(at 34.29 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6b6a7bd5-2f2c-48b5-9e18-e2006f995d20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.8694 113.03 0)
+			(at 23.1406 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7629,6 +7639,82 @@
 			(project "PedalEncoder"
 				(path "/31308be9-b013-4abe-98e2-32d430dea950"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 49.53 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17e4933e-cce1-4b9b-b51b-fdfa0a5ff7fb")
+		(property "Reference" "Q2"
+			(at 54.61 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 54.61 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 54.61 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f01f169-7f14-44e7-9191-9326a94a75a9")
+		)
+		(pin "2"
+			(uuid "c21c0ce4-4055-4e7c-b15f-dc32723e9b9a")
+		)
+		(pin "3"
+			(uuid "e4d73fbb-57b1-4486-a3bc-748c25d3def7")
+		)
+		(instances
+			(project "PedalEncoder"
+				(path "/31308be9-b013-4abe-98e2-32d430dea950"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9932,7 +10018,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "4k7"
 			(at 240.03 54.61 90)
 			(effects
 				(font
@@ -10707,6 +10793,72 @@
 			(project "PedalEncoder"
 				(path "/31308be9-b013-4abe-98e2-32d430dea950"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be4e2d59-0846-4c3b-817b-5aa57b4c5a2d")
+		(property "Reference" "#PWR018"
+			(at 52.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40bdae60-edda-4d03-8621-4059393e2e03")
+		)
+		(instances
+			(project "PedalEncoder"
+				(path "/31308be9-b013-4abe-98e2-32d430dea950"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11690,7 +11842,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 113.03 270)
+		(at 40.64 123.19 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11699,15 +11851,15 @@
 		(dnp no)
 		(uuid "f46b7fc9-3e20-4dc9-bc06-282590c4dae1")
 		(property "Reference" "R4"
-			(at 36.83 119.38 90)
+			(at 40.64 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 36.83 116.84 90)
+		(property "Value" "4k7"
+			(at 40.64 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11715,7 +11867,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 36.83 114.808 90)
+			(at 40.64 124.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11724,7 +11876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 113.03 0)
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11733,7 +11885,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.83 113.03 0)
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

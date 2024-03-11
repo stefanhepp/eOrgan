@@ -3397,6 +3397,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -5230,6 +5351,12 @@
 		(uuid "9596402b-28c5-487d-9513-4bffe07daf72")
 	)
 	(junction
+		(at 161.29 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae0b1271-7000-41cf-a94a-f593fea7f8b5")
+	)
+	(junction
 		(at 64.77 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5240,6 +5367,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3bd9c03-fcd1-4be8-bf34-d3502260b10a")
+	)
+	(junction
+		(at 152.4 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc7f6f04-a7b3-4f73-93e2-42886d63d014")
 	)
 	(no_connect
 		(at 199.39 35.56)
@@ -5561,7 +5694,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 60.96) (xy 139.7 60.96)
+			(xy 125.73 60.96) (xy 152.4 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5688,6 +5821,16 @@
 			(type default)
 		)
 		(uuid "515158f8-86db-4461-8c60-daa8b4f838c2")
+	)
+	(wire
+		(pts
+			(xy 152.4 54.61) (xy 152.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bce5ea-9da7-462e-8ede-23a434596bf6")
 	)
 	(wire
 		(pts
@@ -5881,6 +6024,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 58.42) (xy 161.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b576b0-9f21-41bf-bdfc-ded8592fca5a")
+	)
+	(wire
+		(pts
 			(xy 187.96 144.78) (xy 201.93 144.78)
 		)
 		(stroke
@@ -6018,16 +6171,6 @@
 			(type default)
 		)
 		(uuid "89f77113-ec05-4fdb-9c96-f7b862215127")
-	)
-	(wire
-		(pts
-			(xy 125.73 58.42) (xy 139.7 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c67041a-e552-4333-8fd1-1dabd6d9fb5a")
 	)
 	(wire
 		(pts
@@ -6271,6 +6414,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 60.96) (xy 170.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c143642f-7980-4afe-82fc-b09c825f5a97")
+	)
+	(wire
+		(pts
 			(xy 66.04 118.11) (xy 66.04 120.65)
 		)
 		(stroke
@@ -6338,6 +6491,16 @@
 			(type default)
 		)
 		(uuid "ce06cc92-f7b6-43d1-95f9-a73dca6444b1")
+	)
+	(wire
+		(pts
+			(xy 125.73 58.42) (xy 161.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ac9552-7df1-43b8-b084-964e8c11f2e4")
 	)
 	(wire
 		(pts
@@ -6538,6 +6701,16 @@
 			(type default)
 		)
 		(uuid "efbd68a3-3563-4f3a-b675-33a98b0c1683")
+	)
+	(wire
+		(pts
+			(xy 161.29 58.42) (xy 161.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c30916-aa6c-41b5-ac8e-f100a19401d7")
 	)
 	(wire
 		(pts
@@ -6984,6 +7157,17 @@
 		)
 		(uuid "7e6f51b0-abf7-4c13-b1f1-0b7afbde71a5")
 	)
+	(label "SDA"
+		(at 170.18 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81f6bd9f-b4d0-4fa1-ae28-3a1d371dd67d")
+	)
 	(label "RPI_CS"
 		(at 60.96 68.58 0)
 		(fields_autoplaced yes)
@@ -7082,17 +7266,6 @@
 			(justify right bottom)
 		)
 		(uuid "959974c4-8ac8-4484-8f1a-339277232cc6")
-	)
-	(label "SCL"
-		(at 139.7 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "97dbf804-6d24-4954-afcd-987ee2bc1ac0")
 	)
 	(label "Eth_T+"
 		(at 138.43 110.49 180)
@@ -7304,6 +7477,17 @@
 		(uuid "d07f5e32-52fe-49ac-a7e5-6d4b5e7b9354")
 	)
 	(label "SCL"
+		(at 170.18 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d20767a4-c9fb-460f-bfa3-1e004ace8cc4")
+	)
+	(label "SCL"
 		(at 252.73 114.3 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7412,17 +7596,6 @@
 			(justify right bottom)
 		)
 		(uuid "ed1cf27e-1bed-4714-b584-b001620a6780")
-	)
-	(label "SDA"
-		(at 139.7 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f4c8a5f6-f5ff-48ac-bac8-81faebef7067")
 	)
 	(label "TXD6"
 		(at 60.96 78.74 0)
@@ -7845,6 +8018,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 161.29 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3768c19b-14c3-422e-be9a-36cb76651bab")
+		(property "Reference" "#PWR023"
+			(at 161.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 161.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a0597cb-bf0e-42b3-8ff3-eec216f52c62")
+		)
+		(instances
+			(project "MIDIController"
+				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 17.78 34.29 0)
 		(unit 1)
@@ -8039,6 +8278,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 152.4 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4de5823a-c688-4e73-a1fd-e81ef5571292")
+		(property "Reference" "R1"
+			(at 154.94 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 154.94 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 154.178 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "349d15e9-9c9a-45eb-b684-57be48858cbd")
+		)
+		(pin "2"
+			(uuid "1649dfff-0241-4e46-86e2-b9b02a07b515")
+		)
+		(instances
+			(project "MIDIController"
+				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
 		(at 72.39 165.1 0)
 		(unit 1)
@@ -8193,6 +8502,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 152.4 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ab13732-d755-43fd-a7d8-3ebf442ea59b")
+		(property "Reference" "#PWR022"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 152.4 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50184d0b-b2eb-4e48-a797-aaf091ed713e")
+		)
+		(instances
+			(project "MIDIController"
+				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 64.77 177.8 0)
 		(unit 1)
@@ -8253,6 +8628,76 @@
 			(project "MIDIController"
 				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 161.29 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90d026ca-2864-40ad-b704-69b9af83e842")
+		(property "Reference" "R2"
+			(at 163.83 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 163.83 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 163.068 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19b8577a-c3bd-4316-a0ad-2f4589642340")
+		)
+		(pin "2"
+			(uuid "e50fb2bf-2355-4d7d-aa0f-7ef76c4db34f")
+		)
+		(instances
+			(project "MIDIController"
+				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
+					(reference "R2")
 					(unit 1)
 				)
 			)

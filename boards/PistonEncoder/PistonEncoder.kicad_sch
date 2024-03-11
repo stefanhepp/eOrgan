@@ -4656,6 +4656,208 @@
 				)
 			)
 		)
+		(symbol "Transistor_BJT:BC547"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC547"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC547_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC547_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -6493,6 +6695,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 26.67) (xy 204.47 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697ac37b-40b0-48d9-9095-2e25c4558521")
+	)
+	(wire
+		(pts
 			(xy 134.62 111.76) (xy 143.51 111.76)
 		)
 		(stroke
@@ -6580,6 +6792,16 @@
 			(type default)
 		)
 		(uuid "753d4756-ddac-4756-a646-9dd084f5fc1e")
+	)
+	(wire
+		(pts
+			(xy 204.47 40.64) (xy 208.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768f06e8-8c9a-4fb5-8ce7-62ec59e3f528")
 	)
 	(wire
 		(pts
@@ -6900,16 +7122,6 @@
 			(type default)
 		)
 		(uuid "97666a55-6f03-41f9-afba-f4afea36f8c1")
-	)
-	(wire
-		(pts
-			(xy 196.85 40.64) (xy 208.28 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "976d8a78-7be5-41d2-b181-9e3066b7f55b")
 	)
 	(wire
 		(pts
@@ -8033,7 +8245,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 40.64) (xy 189.23 40.64)
+			(xy 175.26 34.29) (xy 177.8 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8073,6 +8285,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 26.67) (xy 204.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe11a304-4586-43a0-9315-f6008d6947a9")
+	)
+	(wire
+		(pts
 			(xy 54.61 121.92) (xy 76.2 121.92)
 		)
 		(stroke
@@ -8100,6 +8322,16 @@
 			(type default)
 		)
 		(uuid "febe292a-1c4b-4016-b80e-aa98d80e77b9")
+	)
+	(wire
+		(pts
+			(xy 193.04 29.21) (xy 193.04 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff595748-de22-4c6e-bbc4-259df3bf418a")
 	)
 	(label "LED_PWR"
 		(at 132.08 54.61 0)
@@ -8730,7 +8962,7 @@
 	)
 	(global_label "Interrupt"
 		(shape input)
-		(at 186.69 40.64 180)
+		(at 175.26 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8740,7 +8972,7 @@
 		)
 		(uuid "a19a8cc1-9b20-4ca1-a8e5-b1dfbda95f7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1126 40.5606 0)
+			(at 164.6826 34.2106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13070,7 +13302,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.04 40.64 90)
+		(at 181.61 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13079,15 +13311,15 @@
 		(fields_autoplaced yes)
 		(uuid "a936c1aa-1fcf-4e0e-90c5-8091d4b4cd94")
 		(property "Reference" "R1"
-			(at 193.04 34.29 90)
+			(at 181.61 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 193.04 36.83 90)
+		(property "Value" "4k7"
+			(at 181.61 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13095,7 +13327,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 193.04 42.418 90)
+			(at 181.61 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13104,7 +13336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 40.64 0)
+			(at 181.61 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13113,7 +13345,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 193.04 40.64 0)
+			(at 181.61 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13964,6 +14196,82 @@
 			(project "PistonEncoder"
 				(path "/78e9db5e-c1af-4070-a207-15eaf2d909bf"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 190.5 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5acfad6-4149-4637-b993-41a41dfc1b7d")
+		(property "Reference" "Q1"
+			(at 195.58 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 195.58 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
+			(at 195.58 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e3fa93d-c85e-49cf-b529-aaaec0aa7e5e")
+		)
+		(pin "2"
+			(uuid "f62b4c39-972d-461b-8892-97c91aa7b6cf")
+		)
+		(pin "3"
+			(uuid "1343349c-9d85-4b9c-a179-0822293b3ef6")
+		)
+		(instances
+			(project "PistonEncoder"
+				(path "/78e9db5e-c1af-4070-a207-15eaf2d909bf"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -14958,6 +15266,72 @@
 			(project "PistonEncoder"
 				(path "/78e9db5e-c1af-4070-a207-15eaf2d909bf"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6eddb77-b5c3-4d7f-86cc-6b4692a8b7da")
+		(property "Reference" "#PWR028"
+			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b90001bb-d89e-4f62-b7c2-84c99abd3258")
+		)
+		(instances
+			(project "PistonEncoder"
+				(path "/78e9db5e-c1af-4070-a207-15eaf2d909bf"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

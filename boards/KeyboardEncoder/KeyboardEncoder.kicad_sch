@@ -5,7 +5,7 @@
 	(uuid "203cfae3-c134-4f8b-b17f-2675fc7b8ec3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xx:74LS14"
+		(symbol "74xx:74LS07"
 			(pin_names
 				(offset 1.016)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "74LS14"
+			(property "Value" "74LS07"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
+			(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -46,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Hex inverter schmitt trigger"
+			(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +63,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "TTL not inverter"
+			(property "ki_keywords" "TTL hex buffer OpenCol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* DIP*W7.62mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,7 +81,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "74LS14_1_0"
+			(symbol "74LS07_1_0"
 				(polyline
 					(pts
 						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
@@ -112,7 +112,7 @@
 						)
 					)
 				)
-				(pin output inverted
+				(pin open_collector line
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -131,33 +131,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_1_1"
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LS14_2_0"
+			(symbol "74LS07_2_0"
 				(polyline
 					(pts
 						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
@@ -188,7 +162,7 @@
 						)
 					)
 				)
-				(pin output inverted
+				(pin open_collector line
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -207,33 +181,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_2_1"
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LS14_3_0"
+			(symbol "74LS07_3_0"
 				(polyline
 					(pts
 						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
@@ -264,7 +212,7 @@
 						)
 					)
 				)
-				(pin output inverted
+				(pin open_collector line
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -283,33 +231,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_3_1"
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LS14_4_0"
+			(symbol "74LS07_4_0"
 				(polyline
 					(pts
 						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
@@ -322,7 +244,7 @@
 						(type background)
 					)
 				)
-				(pin output inverted
+				(pin open_collector line
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -359,33 +281,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_4_1"
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LS14_5_0"
+			(symbol "74LS07_5_0"
 				(polyline
 					(pts
 						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
@@ -398,7 +294,7 @@
 						(type background)
 					)
 				)
-				(pin output inverted
+				(pin open_collector line
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -435,33 +331,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_5_1"
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LS14_6_0"
+			(symbol "74LS07_6_0"
 				(polyline
 					(pts
 						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
@@ -474,7 +344,7 @@
 						(type background)
 					)
 				)
-				(pin output inverted
+				(pin open_collector line
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -511,33 +381,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_6_1"
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LS14_7_0"
+			(symbol "74LS07_7_0"
 				(pin power_in line
 					(at 0 12.7 270)
 					(length 5.08)
@@ -575,7 +419,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_7_1"
+			(symbol "74LS07_7_1"
 				(rectangle
 					(start -5.08 7.62)
 					(end 5.08 -7.62)
@@ -4988,7 +4832,13 @@
 		(uuid "9a059e90-aa9e-4498-8ce2-afc4e2f27c63")
 	)
 	(junction
-		(at 182.88 66.04)
+		(at 254 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a715d426-23c8-40d5-873b-1026fa8cdd5c")
+	)
+	(junction
+		(at 198.12 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7babc1d-c763-4ded-bbb7-9d7b59c18db8")
@@ -5108,6 +4958,10 @@
 	(no_connect
 		(at 232.41 40.64)
 		(uuid "675f9d4b-81e4-4ac6-bcc4-26046f95ca90")
+	)
+	(no_connect
+		(at 270.51 24.13)
+		(uuid "744e4fc2-3b7c-4dbd-a7a0-e2e3d6163e7c")
 	)
 	(no_connect
 		(at 88.9 109.22)
@@ -5329,7 +5183,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 78.74) (xy 200.66 78.74)
+			(xy 198.12 78.74) (xy 200.66 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5429,7 +5283,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 66.04) (xy 200.66 66.04)
+			(xy 198.12 66.04) (xy 200.66 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5739,16 +5593,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 78.74) (xy 182.88 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef37c6a-9b4b-4185-9430-c50e248b8800")
-	)
-	(wire
-		(pts
 			(xy 153.67 106.68) (xy 153.67 109.22)
 		)
 		(stroke
@@ -5939,6 +5783,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 24.13) (xy 254 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794ad66c-6d7d-4921-880c-caf011ee732a")
+	)
+	(wire
+		(pts
 			(xy 121.92 96.52) (xy 138.43 96.52)
 		)
 		(stroke
@@ -6029,7 +5883,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 66.04) (xy 182.88 66.04)
+			(xy 195.58 66.04) (xy 198.12 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6129,7 +5983,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 111.76) (xy 189.23 111.76)
+			(xy 184.15 111.76) (xy 186.69 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6359,7 +6213,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 111.76) (xy 205.74 111.76)
+			(xy 201.93 111.76) (xy 205.74 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6479,6 +6333,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 24.13) (xy 254 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f8ec7b-f817-4c21-9baf-7523e4caa612")
+	)
+	(wire
+		(pts
 			(xy 88.9 83.82) (xy 134.62 83.82)
 		)
 		(stroke
@@ -6506,16 +6370,6 @@
 			(type default)
 		)
 		(uuid "c9dde1f1-3f59-4061-a7cd-4cf49d232cb0")
-	)
-	(wire
-		(pts
-			(xy 182.88 66.04) (xy 184.15 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbef6a2b-a509-47f8-9523-15a32bdce153")
 	)
 	(wire
 		(pts
@@ -6719,7 +6573,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 78.74) (xy 182.88 66.04)
+			(xy 198.12 78.74) (xy 198.12 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7321,7 +7175,7 @@
 	)
 	(global_label "Interrupt"
 		(shape input)
-		(at 186.69 111.76 180)
+		(at 184.15 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7331,7 +7185,7 @@
 		)
 		(uuid "81b427d7-4e41-40be-82c7-2dfaa74395c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1126 111.6806 0)
+			(at 173.5726 111.6806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +7371,7 @@
 			)
 		)
 	)
-	(global_label "TXT_OUT"
+	(global_label "MIDI_OUT"
 		(shape input)
 		(at 232.41 78.74 0)
 		(fields_autoplaced yes)
@@ -7541,7 +7395,7 @@
 	)
 	(global_label "TXD"
 		(shape input)
-		(at 180.34 66.04 180)
+		(at 195.58 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7551,7 +7405,7 @@
 		)
 		(uuid "c1e56fef-b2b0-4609-a62d-f19a55deaeac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.4798 65.9606 0)
+			(at 189.7198 65.9606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,7 +7459,7 @@
 			)
 		)
 	)
-	(global_label "TXT_OUT"
+	(global_label "MIDI_OUT"
 		(shape input)
 		(at 215.9 109.22 180)
 		(fields_autoplaced yes)
@@ -8601,110 +8455,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS14")
-		(at 208.28 78.74 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4759d57f-c960-4cf4-9999-41492d8a1124")
-		(property "Reference" "U3"
-			(at 208.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS14"
-			(at 208.28 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 208.28 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
-			(at 208.28 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 208.28 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc0e062f-8504-4f20-9fc0-14388b350620")
-		)
-		(pin "2"
-			(uuid "e191640c-88d9-474e-aa2e-9f2019f7deaf")
-		)
-		(pin "3"
-			(uuid "5c420eef-bad4-4d03-90bb-0959d181563c")
-		)
-		(pin "4"
-			(uuid "237916a1-6d68-47e0-8698-279aeecba50e")
-		)
-		(pin "5"
-			(uuid "ff7acd6c-e80d-43c5-8159-72aae9619620")
-		)
-		(pin "6"
-			(uuid "14872ed4-c864-4bf9-844b-3548c65e711c")
-		)
-		(pin "8"
-			(uuid "88371cab-81d8-4804-82b6-161de9ec27b4")
-		)
-		(pin "9"
-			(uuid "c9d0d40b-5a03-4e70-9b2b-c179da0e58a7")
-		)
-		(pin "10"
-			(uuid "0e9412a8-889d-4812-9ccc-aaf4f2093ef6")
-		)
-		(pin "11"
-			(uuid "a0619789-d21e-4da7-89c2-38300a905015")
-		)
-		(pin "12"
-			(uuid "dddaa60a-614c-449c-86de-7cd3fd44213c")
-		)
-		(pin "13"
-			(uuid "d9d95017-2fe2-43e8-a9a7-448febaf6cd9")
-		)
-		(pin "14"
-			(uuid "48121adf-dfc7-4c23-a626-98939dfbc987")
-		)
-		(pin "7"
-			(uuid "c2a3958f-7f54-4a72-94ff-e17a87364287")
-		)
-		(instances
-			(project "KeyboardEncoder"
-				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 134.62 109.22 0)
 		(unit 1)
@@ -9115,112 +8865,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS14")
-		(at 54.61 38.1 0)
-		(unit 7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c355e0a-6f9f-4f47-8d26-bbf82913b903")
-		(property "Reference" "U3"
-			(at 60.96 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LS14"
-			(at 60.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 54.61 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
-			(at 54.61 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 54.61 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ab7f56b-a42d-4620-be2f-7063d7752861")
-		)
-		(pin "2"
-			(uuid "680cdb94-fd4d-4099-9ef7-0984a9205818")
-		)
-		(pin "3"
-			(uuid "90735e0c-0805-40f8-b2e8-97a7ed5389ef")
-		)
-		(pin "4"
-			(uuid "0e43e864-3b59-4fe1-834b-c0ab2653fc2e")
-		)
-		(pin "5"
-			(uuid "47f7031f-6478-41c3-89d4-1dd3ab6cbc9a")
-		)
-		(pin "6"
-			(uuid "377fb74b-7165-45ee-8f4c-fa1792310d3d")
-		)
-		(pin "8"
-			(uuid "45daa178-98dd-4b72-afaa-6cc057b19245")
-		)
-		(pin "9"
-			(uuid "2ababe94-0fab-4fb4-a51c-b88aec29acf5")
-		)
-		(pin "10"
-			(uuid "29752303-6d92-4eab-b8f3-c94dd5437d7e")
-		)
-		(pin "11"
-			(uuid "4963d125-1432-49bc-b95b-1094b3cfedc9")
-		)
-		(pin "12"
-			(uuid "58347d56-9940-4737-b91d-f2121eb38456")
-		)
-		(pin "13"
-			(uuid "d885ddac-d866-4acd-9c6b-30c953fe5d4e")
-		)
-		(pin "14"
-			(uuid "75a07724-5d77-4345-bacb-51b492eb6e39")
-		)
-		(pin "7"
-			(uuid "fb6a1187-bf9e-4a36-aae2-d77f845fdaf5")
-		)
-		(instances
-			(project "KeyboardEncoder"
-				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
-					(reference "U3")
-					(unit 7)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 153.67 109.22 0)
 		(unit 1)
@@ -9287,16 +8931,16 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS14")
+		(lib_id "74xx:74LS07")
 		(at 262.89 50.8 0)
-		(unit 4)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "60ee4f2d-401a-4eb0-8a92-01555362ffdf")
-		(property "Reference" "U3"
+		(uuid "64946b5e-f028-4416-ad7f-aed872d748e3")
+		(property "Reference" "U5"
 			(at 262.89 41.91 0)
 			(effects
 				(font
@@ -9304,7 +8948,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS14"
+		(property "Value" "74LS07"
 			(at 262.89 44.45 0)
 			(effects
 				(font
@@ -9321,7 +8965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
 			(at 262.89 50.8 0)
 			(effects
 				(font
@@ -9330,7 +8974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hex inverter schmitt trigger"
+		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
 			(at 262.89 50.8 0)
 			(effects
 				(font
@@ -9338,54 +8982,54 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "f2e2f374-118b-431f-b82f-e70f83dcf8d3")
-		)
-		(pin "2"
-			(uuid "c77758c8-34a7-4aa5-9eac-a0767eb5b342")
-		)
-		(pin "3"
-			(uuid "a8bc6b0a-3913-4eb6-8460-671f1b7f825c")
-		)
-		(pin "4"
-			(uuid "d6e6ec88-804a-487b-81b6-cfff6f61a5e1")
-		)
-		(pin "5"
-			(uuid "9c1b9a8a-854e-4096-9cf1-42e480231251")
-		)
-		(pin "6"
-			(uuid "cd3bf878-2884-4fbd-b056-52b68cbb5c04")
-		)
-		(pin "8"
-			(uuid "acc55175-4d3f-40c8-925f-cbedf8b3f567")
-		)
-		(pin "9"
-			(uuid "845a4acc-f2be-4588-a5a3-48a2180e1d3f")
-		)
-		(pin "10"
-			(uuid "af939ede-262d-46a3-83ac-b8e19f2d620d")
-		)
-		(pin "11"
-			(uuid "2e5f260b-0ecb-4856-b16d-6b3cf7951a04")
 		)
 		(pin "12"
-			(uuid "bc3828c9-d084-40b6-bf94-d701c8aee251")
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
 		)
-		(pin "13"
-			(uuid "273195ac-ab58-4758-90f0-cddc58e2b4ea")
+		(pin "9"
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+		)
+		(pin "3"
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+		)
+		(pin "8"
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+		)
+		(pin "5"
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
 		)
 		(pin "14"
-			(uuid "f1776d1a-a422-4d4d-bf93-c1597980c73a")
+			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+		)
+		(pin "6"
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+		)
+		(pin "10"
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+		)
+		(pin "4"
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+		)
+		(pin "11"
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
+		)
+		(pin "2"
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+		)
+		(pin "1"
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+		)
+		(pin "13"
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
 		)
 		(pin "7"
-			(uuid "538e9240-d475-45ef-b509-5fd73fb1dbd8")
+			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
 		)
 		(instances
 			(project "KeyboardEncoder"
 				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
-					(reference "U3")
-					(unit 4)
+					(reference "U5")
+					(unit 5)
 				)
 			)
 		)
@@ -9860,6 +9504,110 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS07")
+		(at 262.89 24.13 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "946dfbe6-fa9c-41f4-a821-301b07ae9367")
+		(property "Reference" "U5"
+			(at 262.89 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS07"
+			(at 262.89 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 262.89 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 262.89 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
+			(at 262.89 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
+		)
+		(pin "9"
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+		)
+		(pin "3"
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+		)
+		(pin "8"
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+		)
+		(pin "5"
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
+		)
+		(pin "14"
+			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+		)
+		(pin "6"
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+		)
+		(pin "10"
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+		)
+		(pin "4"
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+		)
+		(pin "11"
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
+		)
+		(pin "2"
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+		)
+		(pin "1"
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+		)
+		(pin "13"
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
+		)
+		(pin "7"
+			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
+		)
+		(instances
+			(project "KeyboardEncoder"
+				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
+					(reference "U5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 135.89 142.24 0)
 		(unit 1)
@@ -9925,110 +9673,6 @@
 				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
 					(reference "C3")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS14")
-		(at 208.28 66.04 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9eab2a20-0540-4de6-b272-d275bde31bfe")
-		(property "Reference" "U3"
-			(at 208.28 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS14"
-			(at 208.28 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 208.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
-			(at 208.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 208.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b841e5f9-c380-488e-a914-b37efa222c28")
-		)
-		(pin "2"
-			(uuid "3ace487b-c5fd-48f9-bd8e-f1c120db90ff")
-		)
-		(pin "3"
-			(uuid "eed77481-aef4-43a6-841a-f561c9db0a34")
-		)
-		(pin "4"
-			(uuid "a78265e9-1602-4cb1-8e04-17ec557237c1")
-		)
-		(pin "5"
-			(uuid "b8a2c8a6-e06a-4146-b635-388fc26e8649")
-		)
-		(pin "6"
-			(uuid "403f0941-e0fc-46b3-a32c-50021608cc6d")
-		)
-		(pin "8"
-			(uuid "e261dd6a-a17d-4b86-af94-88741f6791e7")
-		)
-		(pin "9"
-			(uuid "7d0fe14e-9bb9-41ba-a14e-f2e5afcf2260")
-		)
-		(pin "10"
-			(uuid "ec41ff0e-ad33-4856-bb37-00e28ab5945d")
-		)
-		(pin "11"
-			(uuid "5732b927-0de0-4d35-829e-d5dbc8b1ee3f")
-		)
-		(pin "12"
-			(uuid "963f9f1d-e6aa-4e1e-9fa4-e76d700e4c8f")
-		)
-		(pin "13"
-			(uuid "c29f466c-0fb2-4320-9e1f-b3688ba7f155")
-		)
-		(pin "14"
-			(uuid "38bd6a5c-f705-4678-bb17-b22fbd586e9c")
-		)
-		(pin "7"
-			(uuid "a5e41b20-3009-4ceb-a4cb-eba3012cab09")
-		)
-		(instances
-			(project "KeyboardEncoder"
-				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
-					(reference "U3")
-					(unit 5)
 				)
 			)
 		)
@@ -10102,110 +9746,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS14")
-		(at 262.89 38.1 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2adeaa4-52f3-4974-bea9-4eb732b337eb")
-		(property "Reference" "U3"
-			(at 262.89 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS14"
-			(at 262.89 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 262.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
-			(at 262.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 262.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df2cd823-e2cb-4c40-8b26-86efe22a2161")
-		)
-		(pin "2"
-			(uuid "dd40ecec-8208-48d5-bbc1-491bf72d68a3")
-		)
-		(pin "3"
-			(uuid "14d683f7-0149-4a03-821a-1b3f2d47674e")
-		)
-		(pin "4"
-			(uuid "2169c1ce-07f3-4b48-9487-7741623ca2a0")
-		)
-		(pin "5"
-			(uuid "7ec38c67-6591-4767-980f-7b4267230765")
-		)
-		(pin "6"
-			(uuid "3b321eb7-8c0e-4037-baff-0b4897886463")
-		)
-		(pin "8"
-			(uuid "1679d895-8c8f-41e5-8ccc-b43b76590708")
-		)
-		(pin "9"
-			(uuid "440f9d8a-a097-48ff-be02-9a084583be03")
-		)
-		(pin "10"
-			(uuid "369f9c6c-36c9-434f-84ba-c3382146c808")
-		)
-		(pin "11"
-			(uuid "32ee204a-11e5-4710-b6b7-63713d0ad246")
-		)
-		(pin "12"
-			(uuid "ff945698-ea00-4123-9a70-82fac3caf489")
-		)
-		(pin "13"
-			(uuid "d5a489f3-cda8-4738-b8f4-0db751f2c11e")
-		)
-		(pin "14"
-			(uuid "7dbff8ed-5624-4ea2-b69d-52b57261ab71")
-		)
-		(pin "7"
-			(uuid "6c35e21e-7dc5-4de0-a50c-d8bfdebcb301")
-		)
-		(instances
-			(project "KeyboardEncoder"
-				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 33.02 93.98 0)
 		(unit 1)
@@ -10267,6 +9807,110 @@
 				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
 					(reference "#PWR01")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS07")
+		(at 208.28 66.04 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a47f3765-f899-4968-aa1b-afce004b04fc")
+		(property "Reference" "U5"
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS07"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
+		)
+		(pin "9"
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+		)
+		(pin "3"
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+		)
+		(pin "8"
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+		)
+		(pin "5"
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
+		)
+		(pin "14"
+			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+		)
+		(pin "6"
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+		)
+		(pin "10"
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+		)
+		(pin "4"
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+		)
+		(pin "11"
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
+		)
+		(pin "2"
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+		)
+		(pin "1"
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+		)
+		(pin "13"
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
+		)
+		(pin "7"
+			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
+		)
+		(instances
+			(project "KeyboardEncoder"
+				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
+					(reference "U5")
+					(unit 6)
 				)
 			)
 		)
@@ -10338,42 +9982,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 193.04 111.76 90)
-		(unit 1)
+		(lib_id "74xx:74LS07")
+		(at 194.31 111.76 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a8967b8f-5b65-45b1-8cec-c43a275cb7ff")
-		(property "Reference" "R2"
-			(at 193.04 105.41 90)
+		(uuid "aaf3decc-4667-47fc-a3d3-9962bffd2436")
+		(property "Reference" "U5"
+			(at 194.31 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 193.04 107.95 90)
+		(property "Value" "74LS07"
+			(at 194.31 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 193.04 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 111.76 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,8 +10016,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 193.04 111.76 0)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10390,17 +10025,62 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "72ba6af3-a04a-4b6e-8479-740b89ee135c")
+		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
+		)
+		(pin "9"
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+		)
+		(pin "3"
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+		)
+		(pin "8"
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+		)
+		(pin "5"
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
+		)
+		(pin "14"
+			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+		)
+		(pin "6"
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+		)
+		(pin "10"
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+		)
+		(pin "4"
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+		)
+		(pin "11"
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
 		)
 		(pin "2"
-			(uuid "007f1f06-f8f7-4e65-81f4-0a5075331b24")
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+		)
+		(pin "1"
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+		)
+		(pin "13"
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
+		)
+		(pin "7"
+			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
 		)
 		(instances
 			(project "KeyboardEncoder"
 				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
-					(reference "R2")
-					(unit 1)
+					(reference "U5")
+					(unit 3)
 				)
 			)
 		)
@@ -10530,110 +10210,6 @@
 			(project "KeyboardEncoder"
 				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS14")
-		(at 191.77 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afe29e09-ba02-4df3-9ff0-2f83fdd9db3c")
-		(property "Reference" "U3"
-			(at 191.77 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS14"
-			(at 191.77 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 191.77 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
-			(at 191.77 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 191.77 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe684cbc-2097-496a-9328-1ad24ed23514")
-		)
-		(pin "2"
-			(uuid "a2561c5d-55b1-480c-9177-40baa9b7ed13")
-		)
-		(pin "3"
-			(uuid "9b25df88-648c-42c7-8208-efb6f2b20bad")
-		)
-		(pin "4"
-			(uuid "4e72323d-2438-4539-bbd2-d526ec8c5cec")
-		)
-		(pin "5"
-			(uuid "141b834c-e5f4-4444-b3d8-0d362e801851")
-		)
-		(pin "6"
-			(uuid "40b6af00-3b87-4c3b-923c-dee2d274cbbc")
-		)
-		(pin "8"
-			(uuid "6464322a-0abb-42ad-aa51-e949f9beb85f")
-		)
-		(pin "9"
-			(uuid "6e62cd2d-a2e3-4c2f-b45c-5f48a8a1a26e")
-		)
-		(pin "10"
-			(uuid "4f4ac742-dc29-48dd-b2a7-04a141185120")
-		)
-		(pin "11"
-			(uuid "c492879f-8668-4307-a63c-a0a29a4d933a")
-		)
-		(pin "12"
-			(uuid "e1450524-fbca-4fb9-b6c8-551c6082cf8a")
-		)
-		(pin "13"
-			(uuid "29dc43bc-e13c-4ddf-8c49-c87fa12f2bd0")
-		)
-		(pin "14"
-			(uuid "53c0e01d-0ed0-4f72-be84-56d43b8b531b")
-		)
-		(pin "7"
-			(uuid "5d0beaef-2055-417b-8fbb-6ff45afc76cb")
-		)
-		(instances
-			(project "KeyboardEncoder"
-				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11353,110 +10929,6 @@
 				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
 					(reference "H3")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS14")
-		(at 191.77 66.04 0)
-		(unit 6)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c91ef019-2e1d-43cb-98b5-fc69db004de9")
-		(property "Reference" "U3"
-			(at 191.77 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS14"
-			(at 191.77 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 191.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
-			(at 191.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 191.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdc36bf7-d63c-45f9-a6c8-0b6609ff5832")
-		)
-		(pin "2"
-			(uuid "78ee5cbc-2b5b-4780-b207-9678d8eb7c84")
-		)
-		(pin "3"
-			(uuid "aef0f3e4-ce41-4cd7-bb9b-08e410635c8e")
-		)
-		(pin "4"
-			(uuid "859e7684-d6cd-4214-b940-3c64e7a3f1f1")
-		)
-		(pin "5"
-			(uuid "1a0c8f58-cd1b-45d9-83d8-5999e85c30c3")
-		)
-		(pin "6"
-			(uuid "e416bdef-263c-4893-b490-ced53b322c7a")
-		)
-		(pin "8"
-			(uuid "34cf988b-f0f7-4769-8227-fb8444e00fdb")
-		)
-		(pin "9"
-			(uuid "fafc75da-b068-47ad-ad37-1dd0da3b94ba")
-		)
-		(pin "10"
-			(uuid "0266535f-78b7-4bab-88d3-51b22446487b")
-		)
-		(pin "11"
-			(uuid "376cc438-6708-4923-be52-976d0633f3f2")
-		)
-		(pin "12"
-			(uuid "5bf2ee15-fa93-4a11-9ada-278ea224d173")
-		)
-		(pin "13"
-			(uuid "bb900fdd-b663-4776-91de-85e6d6946dc5")
-		)
-		(pin "14"
-			(uuid "7cdb3115-4458-457a-9585-b49d4d0568cb")
-		)
-		(pin "7"
-			(uuid "40c157ba-8cab-4418-93a6-884b6c170cda")
-		)
-		(instances
-			(project "KeyboardEncoder"
-				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
-					(reference "U3")
-					(unit 6)
 				)
 			)
 		)
@@ -12318,6 +11790,112 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS07")
+		(at 54.61 38.1 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebff0640-39c1-4c8d-b8a8-96958204db8c")
+		(property "Reference" "U5"
+			(at 60.96 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS07"
+			(at 60.96 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
+		)
+		(pin "9"
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+		)
+		(pin "3"
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+		)
+		(pin "8"
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+		)
+		(pin "5"
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
+		)
+		(pin "14"
+			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+		)
+		(pin "6"
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+		)
+		(pin "10"
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+		)
+		(pin "4"
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+		)
+		(pin "11"
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
+		)
+		(pin "2"
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+		)
+		(pin "1"
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+		)
+		(pin "13"
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
+		)
+		(pin "7"
+			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
+		)
+		(instances
+			(project "KeyboardEncoder"
+				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
+					(reference "U5")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 234.95 153.67 0)
 		(unit 1)
@@ -12704,6 +12282,110 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS07")
+		(at 262.89 38.1 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4a92e9d-70aa-4065-9382-6f80861acff6")
+		(property "Reference" "U5"
+			(at 262.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS07"
+			(at 262.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 262.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 262.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
+			(at 262.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
+		)
+		(pin "9"
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+		)
+		(pin "3"
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+		)
+		(pin "8"
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+		)
+		(pin "5"
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
+		)
+		(pin "14"
+			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+		)
+		(pin "6"
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+		)
+		(pin "10"
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+		)
+		(pin "4"
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+		)
+		(pin "11"
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
+		)
+		(pin "2"
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+		)
+		(pin "1"
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+		)
+		(pin "13"
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
+		)
+		(pin "7"
+			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
+		)
+		(instances
+			(project "KeyboardEncoder"
+				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Network08")
 		(at 124.46 73.66 0)
 		(mirror y)
@@ -12855,6 +12537,110 @@
 			(project "KeyboardEncoder"
 				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS07")
+		(at 208.28 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faea8921-e3a1-43d6-aad5-adbcbde92485")
+		(property "Reference" "U5"
+			(at 208.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS07"
+			(at 208.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
+		)
+		(pin "9"
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+		)
+		(pin "3"
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+		)
+		(pin "8"
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+		)
+		(pin "5"
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
+		)
+		(pin "14"
+			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+		)
+		(pin "6"
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+		)
+		(pin "10"
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+		)
+		(pin "4"
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+		)
+		(pin "11"
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
+		)
+		(pin "2"
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+		)
+		(pin "1"
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+		)
+		(pin "13"
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
+		)
+		(pin "7"
+			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
+		)
+		(instances
+			(project "KeyboardEncoder"
+				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
+					(reference "U5")
 					(unit 1)
 				)
 			)
