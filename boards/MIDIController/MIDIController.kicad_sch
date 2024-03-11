@@ -8957,28 +8957,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d1b3a1c-9d3a-4629-affc-24d652ed5106")
+			(uuid "3d1b3a1c-9d3a-4629-affc-24d652ed5107")
 		)
 		(pin "8"
-			(uuid "9b9c521e-4eab-44e2-ad8a-1d07bb72cf24")
+			(uuid "9b9c521e-4eab-44e2-ad8a-1d07bb72cf25")
 		)
 		(pin "5"
-			(uuid "35147db6-4c6f-467e-9092-e02a3553d877")
+			(uuid "35147db6-4c6f-467e-9092-e02a3553d878")
 		)
 		(pin "7"
-			(uuid "8030097b-0f34-4bc3-b491-d6a70524f003")
+			(uuid "8030097b-0f34-4bc3-b491-d6a70524f004")
 		)
 		(pin "6"
-			(uuid "d7fedf84-411e-4b30-9514-64d820f1c788")
+			(uuid "d7fedf84-411e-4b30-9514-64d820f1c789")
 		)
 		(pin "4"
-			(uuid "67ed17cb-3e06-4542-8f78-229b25e31cb1")
+			(uuid "67ed17cb-3e06-4542-8f78-229b25e31cb2")
 		)
 		(pin "2"
-			(uuid "f002fe61-3792-44f1-9fd1-fa7738404bba")
+			(uuid "f002fe61-3792-44f1-9fd1-fa7738404bbb")
 		)
 		(pin "3"
-			(uuid "c9fb876f-5e37-4460-af5b-13172c35b33f")
+			(uuid "c9fb876f-5e37-4460-af5b-13172c35b340")
 		)
 		(instances
 			(project "MIDIController"
@@ -9998,7 +9998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Footprints:BatteryHolder_Holder_CR2032"
 			(at 90.17 131.826 90)
 			(effects
 				(font
