@@ -5543,6 +5543,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 137.16) (xy 135.89 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5591339f-ef43-442a-8e31-cf5a387b345b")
+	)
+	(wire
+		(pts
 			(xy 232.41 151.13) (xy 234.95 151.13)
 		)
 		(stroke
@@ -6580,6 +6590,16 @@
 			(type default)
 		)
 		(uuid "f0127b79-ef54-4e29-b0c8-91ceb21108e1")
+	)
+	(wire
+		(pts
+			(xy 120.65 138.43) (xy 120.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1505899-16be-4b58-8144-27d498011179")
 	)
 	(wire
 		(pts
@@ -7836,6 +7856,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 120.65 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c5aecef-f9ca-4f6e-8442-210fa62672d0")
+		(property "Reference" "C7"
+			(at 124.46 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330nF"
+			(at 124.46 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 121.6152 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e72dd495-4135-4cef-a78f-e5888085918f")
+		)
+		(pin "2"
+			(uuid "c8b3676f-fcff-4d08-b22c-a290e999755e")
+		)
+		(instances
+			(project "KeyboardEncoder"
+				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_Microchip_ATmega:ATmega48-20P")
 		(at 73.66 114.3 0)
 		(unit 1)
@@ -8931,6 +9021,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60eb8620-dde9-4b0e-afab-c8463a7a987e")
+		(property "Reference" "#PWR017"
+			(at 120.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b3576f5-2c7a-4e07-a126-158acfe8e700")
+		)
+		(instances
+			(project "KeyboardEncoder"
+				(path "/203cfae3-c134-4f8b-b17f-2675fc7b8ec3"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS07")
 		(at 262.89 50.8 0)
 		(unit 5)
@@ -9557,46 +9713,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde4")
 		)
 		(pin "9"
-			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853f")
 		)
 		(pin "3"
-			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a38b")
 		)
 		(pin "8"
-			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f171")
 		)
 		(pin "5"
-			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6758")
 		)
 		(pin "14"
-			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+			(uuid "9db60584-be7c-4a00-815e-659971722c21")
 		)
 		(pin "6"
-			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2d")
 		)
 		(pin "10"
-			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b3")
 		)
 		(pin "4"
-			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d6")
 		)
 		(pin "11"
-			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506f")
 		)
 		(pin "2"
-			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65024")
 		)
 		(pin "1"
-			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc28")
 		)
 		(pin "13"
-			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5d")
 		)
 		(pin "7"
-			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
+			(uuid "09731371-13bd-4e70-8cef-77fcca07027a")
 		)
 		(instances
 			(project "KeyboardEncoder"
@@ -9865,46 +10021,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde5")
 		)
 		(pin "9"
-			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd58540")
 		)
 		(pin "3"
-			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a38c")
 		)
 		(pin "8"
-			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f172")
 		)
 		(pin "5"
-			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6759")
 		)
 		(pin "14"
-			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+			(uuid "9db60584-be7c-4a00-815e-659971722c22")
 		)
 		(pin "6"
-			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2e")
 		)
 		(pin "10"
-			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b4")
 		)
 		(pin "4"
-			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d7")
 		)
 		(pin "11"
-			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b6605070")
 		)
 		(pin "2"
-			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65025")
 		)
 		(pin "1"
-			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc29")
 		)
 		(pin "13"
-			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5e")
 		)
 		(pin "7"
-			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
+			(uuid "09731371-13bd-4e70-8cef-77fcca07027b")
 		)
 		(instances
 			(project "KeyboardEncoder"
@@ -10035,46 +10191,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde6")
 		)
 		(pin "9"
-			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd58541")
 		)
 		(pin "3"
-			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a38d")
 		)
 		(pin "8"
-			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f173")
 		)
 		(pin "5"
-			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c675a")
 		)
 		(pin "14"
-			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+			(uuid "9db60584-be7c-4a00-815e-659971722c23")
 		)
 		(pin "6"
-			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2f")
 		)
 		(pin "10"
-			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b5")
 		)
 		(pin "4"
-			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d8")
 		)
 		(pin "11"
-			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b6605071")
 		)
 		(pin "2"
-			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65026")
 		)
 		(pin "1"
-			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc2a")
 		)
 		(pin "13"
-			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5f")
 		)
 		(pin "7"
-			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
+			(uuid "09731371-13bd-4e70-8cef-77fcca07027c")
 		)
 		(instances
 			(project "KeyboardEncoder"
@@ -11845,46 +12001,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde7")
 		)
 		(pin "9"
-			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd58542")
 		)
 		(pin "3"
-			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a38e")
 		)
 		(pin "8"
-			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f174")
 		)
 		(pin "5"
-			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c675b")
 		)
 		(pin "14"
-			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+			(uuid "9db60584-be7c-4a00-815e-659971722c24")
 		)
 		(pin "6"
-			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b30")
 		)
 		(pin "10"
-			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b6")
 		)
 		(pin "4"
-			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d9")
 		)
 		(pin "11"
-			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b6605072")
 		)
 		(pin "2"
-			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65027")
 		)
 		(pin "1"
-			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc2b")
 		)
 		(pin "13"
-			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee60")
 		)
 		(pin "7"
-			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
+			(uuid "09731371-13bd-4e70-8cef-77fcca07027d")
 		)
 		(instances
 			(project "KeyboardEncoder"
@@ -12335,46 +12491,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde8")
 		)
 		(pin "9"
-			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd58543")
 		)
 		(pin "3"
-			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a38f")
 		)
 		(pin "8"
-			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f175")
 		)
 		(pin "5"
-			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c675c")
 		)
 		(pin "14"
-			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+			(uuid "9db60584-be7c-4a00-815e-659971722c25")
 		)
 		(pin "6"
-			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b31")
 		)
 		(pin "10"
-			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b7")
 		)
 		(pin "4"
-			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2da")
 		)
 		(pin "11"
-			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b6605073")
 		)
 		(pin "2"
-			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65028")
 		)
 		(pin "1"
-			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc2c")
 		)
 		(pin "13"
-			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee61")
 		)
 		(pin "7"
-			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
+			(uuid "09731371-13bd-4e70-8cef-77fcca07027e")
 		)
 		(instances
 			(project "KeyboardEncoder"
@@ -12596,46 +12752,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "ca3df04b-a612-4710-931e-a6325178fde3")
+			(uuid "ca3df04b-a612-4710-931e-a6325178fde9")
 		)
 		(pin "9"
-			(uuid "e14c80e1-8d82-431b-ac43-435e1dd5853e")
+			(uuid "e14c80e1-8d82-431b-ac43-435e1dd58544")
 		)
 		(pin "3"
-			(uuid "8a31f491-75f5-463d-bd11-268f9085a38a")
+			(uuid "8a31f491-75f5-463d-bd11-268f9085a390")
 		)
 		(pin "8"
-			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f170")
+			(uuid "c37734ba-d880-44ec-aa6e-2343d0c6f176")
 		)
 		(pin "5"
-			(uuid "6a2c6f32-6185-472a-ad10-6919a26c6757")
+			(uuid "6a2c6f32-6185-472a-ad10-6919a26c675d")
 		)
 		(pin "14"
-			(uuid "9db60584-be7c-4a00-815e-659971722c20")
+			(uuid "9db60584-be7c-4a00-815e-659971722c26")
 		)
 		(pin "6"
-			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b2c")
+			(uuid "2f30b7db-d8dc-4e98-bf88-e829ac268b32")
 		)
 		(pin "10"
-			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b2")
+			(uuid "4bff2c98-e055-4f40-9420-b324e679e4b8")
 		)
 		(pin "4"
-			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2d5")
+			(uuid "20358f30-2db2-4afa-a764-53b93bbeb2db")
 		)
 		(pin "11"
-			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b660506e")
+			(uuid "cd6e91f9-dfb1-45e4-b33f-8d34b6605074")
 		)
 		(pin "2"
-			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65023")
+			(uuid "29ba2a75-95f5-4e0e-9dcf-6f0962e65029")
 		)
 		(pin "1"
-			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc27")
+			(uuid "3df5b1cc-ca40-42cf-b99f-65041955dc2d")
 		)
 		(pin "13"
-			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee5c")
+			(uuid "5ed46867-ace2-452a-aee9-ecaf4c66ee62")
 		)
 		(pin "7"
-			(uuid "09731371-13bd-4e70-8cef-77fcca070279")
+			(uuid "09731371-13bd-4e70-8cef-77fcca07027f")
 		)
 		(instances
 			(project "KeyboardEncoder"

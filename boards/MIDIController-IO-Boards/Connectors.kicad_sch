@@ -1035,7 +1035,7 @@
 				)
 			)
 		)
-		(symbol "Interface_UART:MAX3232"
+		(symbol "Interface_UART:ICL3232"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1051,7 +1051,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "MAX3232"
+			(property "Value" "ICL3232"
 				(at -2.54 26.67 0)
 				(effects
 					(font
@@ -1070,7 +1070,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf"
+			(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/icl3/icl3221-22-23-32-41-43.pdf"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -1079,7 +1079,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors"
+			(property "Description" "3.0V to 5.5V, Low-Power, up to 250kbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1106,7 +1106,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MAX3232_0_0"
+			(symbol "ICL3232_0_0"
 				(text "LOGIC"
 					(at -11.43 -22.86 0)
 					(effects
@@ -1124,7 +1124,7 @@
 					)
 				)
 			)
-			(symbol "MAX3232_0_1"
+			(symbol "ICL3232_0_1"
 				(rectangle
 					(start -15.24 -25.4)
 					(end 15.24 25.4)
@@ -1325,7 +1325,7 @@
 					)
 				)
 			)
-			(symbol "MAX3232_1_1"
+			(symbol "ICL3232_1_1"
 				(pin passive line
 					(at -20.32 22.86 0)
 					(length 5.08)
@@ -4474,6 +4474,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_UART:ICL3232")
+		(at 142.24 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2686fdc1-ed5b-4184-8b8b-61846b9426b4")
+		(property "Reference" "U5"
+			(at 144.4341 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ICL3232"
+			(at 144.4341 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/icl3/icl3221-22-23-32-41-43.pdf"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.0V to 5.5V, Low-Power, up to 250kbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "19d1e42c-0322-41d3-bc71-2b0db23ab3df")
+		)
+		(pin "8"
+			(uuid "78fe71ab-2ecd-4fb4-a9b3-ae0ad7c833be")
+		)
+		(pin "4"
+			(uuid "7206fcf8-df7b-45a2-b067-112079de43f4")
+		)
+		(pin "2"
+			(uuid "3185a85a-ebdc-46aa-8f11-da87f03d0bb8")
+		)
+		(pin "6"
+			(uuid "120b59c8-0cf4-41d8-b524-701f62cb5bea")
+		)
+		(pin "7"
+			(uuid "69a49c8b-b78f-4032-b124-a549a78ad87f")
+		)
+		(pin "9"
+			(uuid "89a27af3-50dc-413c-8857-aafa0dd992f4")
+		)
+		(pin "5"
+			(uuid "bed73d1d-a0eb-409b-982b-5000476b2bd3")
+		)
+		(pin "16"
+			(uuid "9e476290-0a46-444b-9ebe-3dcc75bff2da")
+		)
+		(pin "14"
+			(uuid "b7a5d404-4368-491c-b931-ea758f8896d2")
+		)
+		(pin "1"
+			(uuid "44935d95-09a5-400f-9a1e-b21f67366d69")
+		)
+		(pin "15"
+			(uuid "2c26d127-5de8-4dae-a3f1-d07a13745155")
+		)
+		(pin "11"
+			(uuid "623dbc85-0d0c-45b8-91e8-d495119d9f41")
+		)
+		(pin "12"
+			(uuid "5fe6c77d-df0f-44cd-8a92-a27f300ac18c")
+		)
+		(pin "10"
+			(uuid "f1277679-b0b1-4836-b9d1-c30aedf29297")
+		)
+		(pin "13"
+			(uuid "34057f2a-87ef-41a7-903d-1e0042b14437")
+		)
+		(instances
+			(project "MIDIController-IO-Boards"
+				(path "/06df47e9-b50a-4827-8ccb-76595e56d621/563c44a9-e62f-4884-9575-68843445bbb7"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 135.89 68.58 0)
 		(unit 1)
@@ -4706,7 +4819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.47uF"
 			(at 183.261 101.473 0)
 			(effects
 				(font
@@ -5527,7 +5640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.47uF"
 			(at 169.291 107.823 0)
 			(effects
 				(font
@@ -5770,7 +5883,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.47uF"
 			(at 121.031 107.823 0)
 			(effects
 				(font
@@ -6626,119 +6739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_UART:MAX3232")
-		(at 142.24 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae8ac95b-6a33-44fa-b07f-758157c28508")
-		(property "Reference" "U4"
-			(at 144.4341 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX3232"
-			(at 144.4341 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
-			(at 143.51 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf"
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors"
-			(at 142.24 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1f80e217-5f97-4f6f-83fc-53465e2fc8b0")
-		)
-		(pin "9"
-			(uuid "6ffbb541-552e-4159-bbbf-c1b32f3b8d4d")
-		)
-		(pin "4"
-			(uuid "0b655c6a-ee20-4c46-968d-7cd22abb3c92")
-		)
-		(pin "7"
-			(uuid "51362eee-15c8-4625-a395-3c0016281c48")
-		)
-		(pin "5"
-			(uuid "f3b74ad9-ef68-4365-bd56-358460e5f06a")
-		)
-		(pin "10"
-			(uuid "524fe80f-96f1-4273-8b3c-31a19eca6ad9")
-		)
-		(pin "11"
-			(uuid "dc424ea3-e74d-4863-99e9-91a7b343660a")
-		)
-		(pin "1"
-			(uuid "6eef6844-3956-4b11-8507-1b1a43dda2b4")
-		)
-		(pin "8"
-			(uuid "4a9f14d7-0e56-4ba1-a68b-482ac7abc072")
-		)
-		(pin "6"
-			(uuid "3b5b55e5-cc47-415c-b278-c83fd8a29a64")
-		)
-		(pin "3"
-			(uuid "18b36871-25d4-4908-b9e8-f211fbc63dbb")
-		)
-		(pin "16"
-			(uuid "fcfd8777-8997-4970-ba0a-ddce3a475576")
-		)
-		(pin "13"
-			(uuid "d2b04105-c8fc-4089-9547-e3609c7a93a0")
-		)
-		(pin "14"
-			(uuid "56951d9c-4bda-4524-914f-b85ed5784299")
-		)
-		(pin "12"
-			(uuid "e64223bd-aa67-4484-878f-31cf7358ac9b")
-		)
-		(pin "15"
-			(uuid "1d05a527-1c7b-4956-931e-43163e23b9c3")
-		)
-		(instances
-			(project "MIDIController-IO-Boards"
-				(path "/06df47e9-b50a-4827-8ccb-76595e56d621/563c44a9-e62f-4884-9575-68843445bbb7"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 54.61 46.99 90)
 		(unit 1)
@@ -7027,7 +7027,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.47uF"
 			(at 175.768 121.666 0)
 			(effects
 				(font
@@ -7265,7 +7265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.47uF"
 			(at 176.022 113.538 0)
 			(effects
 				(font

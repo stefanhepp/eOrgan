@@ -5436,12 +5436,6 @@
 		(uuid "8abde723-66c1-4c88-a7c9-ccf0dd700452")
 	)
 	(junction
-		(at 142.24 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d0cd9e4-6ccd-4429-a9f4-645c9c0b5a1f")
-	)
-	(junction
 		(at 195.58 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5562,6 +5556,10 @@
 	(no_connect
 		(at 238.76 104.14)
 		(uuid "20759cf6-5003-4f96-9d25-7708e33203da")
+	)
+	(no_connect
+		(at 110.49 73.66)
+		(uuid "2912ec12-93da-47ff-830e-a44f3a2f5762")
 	)
 	(no_connect
 		(at 208.28 35.56)
@@ -6885,16 +6883,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 54.61) (xy 113.03 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c59f2e-4d5d-4d05-bf97-b39bfebd203e")
-	)
-	(wire
-		(pts
 			(xy 214.63 26.67) (xy 223.52 26.67)
 		)
 		(stroke
@@ -6932,16 +6920,6 @@
 			(type default)
 		)
 		(uuid "87b990f7-1e07-4442-addc-a8f6ca8658dc")
-	)
-	(wire
-		(pts
-			(xy 113.03 54.61) (xy 113.03 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88b44d65-261c-4ee7-96ab-9afb255be61e")
 	)
 	(wire
 		(pts
@@ -7745,16 +7723,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 73.66) (xy 113.03 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce115bbb-0028-4661-8e4a-b9e70184f6c9")
-	)
-	(wire
-		(pts
 			(xy 267.97 106.68) (xy 267.97 104.14)
 		)
 		(stroke
@@ -8334,7 +8302,7 @@
 		(uuid "ff595748-de22-4c6e-bbc4-259df3bf418a")
 	)
 	(label "LED_PWR"
-		(at 132.08 54.61 0)
+		(at 158.75 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11241,7 +11209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_Pack04_SIP_Split"
+		(property "Value" "330"
 			(at 133.35 88.9 90)
 			(effects
 				(font
@@ -12207,7 +12175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_Pack04_SIP_Split"
+		(property "Value" "330"
 			(at 133.35 69.85 90)
 			(effects
 				(font
@@ -12361,7 +12329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_Pack04_SIP_Split"
+		(property "Value" "330"
 			(at 133.35 64.77 90)
 			(effects
 				(font
@@ -13162,7 +13130,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Network08"
+		(property "Value" "10k"
 			(at 68.58 147.0659 0)
 			(effects
 				(font
@@ -13387,7 +13355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_Pack04_SIP_Split"
+		(property "Value" "330"
 			(at 133.35 67.31 90)
 			(effects
 				(font
@@ -13710,7 +13678,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Pack04_SIP_Split"
+		(property "Value" "330"
 			(at 133.35 62.23 90)
 			(effects
 				(font
@@ -13855,15 +13823,15 @@
 		(fields_autoplaced yes)
 		(uuid "b6f02795-a52a-4312-bc07-bc74e028c537")
 		(property "Reference" "RN3"
-			(at 133.35 81.28 90)
+			(at 133.35 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Pack04_SIP_Split"
-			(at 133.35 83.82 90)
+		(property "Value" "330"
+			(at 133.35 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14362,7 +14330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_Pack04_SIP_Split"
+		(property "Value" "330"
 			(at 133.35 91.44 90)
 			(effects
 				(font
@@ -15356,7 +15324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_Pack04_SIP_Split"
+		(property "Value" "330"
 			(at 133.35 86.36 90)
 			(effects
 				(font
