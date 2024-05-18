@@ -12250,7 +12250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "47uF"
 			(at 198.12 126.1109 0)
 			(effects
 				(font

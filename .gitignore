@@ -17,6 +17,10 @@ fp-info-cache
 \#auto_saved_files#
 *.lck
 
+# Ignore fab outputs
+gerber/
+bom/
+
 # Ignore FreeCAD backups
 *.FCStd1
 *.FCBak
