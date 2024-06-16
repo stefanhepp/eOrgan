@@ -6409,7 +6409,7 @@
 		(uuid "ff73380e-d064-43d7-bccb-ff95ac09be89")
 	)
 	(label "SDA_Panel"
-		(at 48.26 101.6 0)
+		(at 48.26 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6871,7 +6871,7 @@
 		(uuid "aafaa536-d514-4af1-ad4c-adbae820ea1d")
 	)
 	(label "TXD_Panel"
-		(at 87.63 179.07 0)
+		(at 87.63 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7014,7 +7014,7 @@
 		(uuid "e2997bfb-2f5b-4024-85db-6c70cadc7539")
 	)
 	(label "RXD_Panel"
-		(at 87.63 181.61 0)
+		(at 87.63 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7069,7 +7069,7 @@
 		(uuid "fadf456d-511b-4cce-9587-e2e3eb5f7f91")
 	)
 	(label "SCL_Panel"
-		(at 48.26 99.06 0)
+		(at 48.26 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
