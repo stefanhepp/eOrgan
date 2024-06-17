@@ -1,0 +1,111 @@
+MIDI
+====
+
+MIDI Ports IO Board
+-------------------
+
+- UART Ports:
+  - Keyboard: Channel 5/6
+  - Technics: Channel 4
+
+- MIDI Pedal: 
+  - Pedal: Channel 3
+
+- MIDI1:
+  - In:  Side Panel
+  - Out: Side Panel
+- MIDI2:
+  - In:  Fantom: Chanel 1/2/..
+  - Out: Fantom
+- MIDI3:
+  - In:  Zynthian
+  - Out: Zynthian
+- MIDI4:
+  - In:  Front Panel
+  - Out: Roland SE-02; Channel 8
+
+MIDI Routes
+-----------
+
+- Merged Inputs:
+  - MIDI Keyboard
+  - MIDI Technics
+  - MIDI Pedal
+  - MIDI 1 In
+  - MIDI 2 In
+  - MIDI 3 In
+  - MIDI 4 In
+- Merged MIDI Output:
+  - MIDI 1 Out: Side
+  - MIDI 2 Out: Fantom
+    Filter: Not MIDI In 2
+  - MIDI 3 Out: Zynthian
+    Filter: Not MIDI In 3
+  - MIDI 4 Out: SE-02
+    Channel Remap: 8/x -> 8
+  - MIDI USB Out:
+    Filter: Not USB In
+
+I2C
+===
+
+I2C Devices
+-----------
+
+- I2S Audio:		0x
+- TCA9548:		0x70
+  - Port 0: Panel
+  - Port 1: Header
+  - Port 2: StopLeft
+  - Port 3: StopRight
+  - Port 4: ToeStuds
+    - ToeStud AtMega:	0x
+    - Pedal AtMega:	0x
+  - Port 5: Technics
+    - Technics AtMega:	0x
+    - Piston AtMega:	0x
+  - Port 6: Keyboard
+    - Keyboard AtMega:	0x
+    - Piston AtMega:	0x
+  - Port 7: Header
+
+I2C Commands
+------------
+
+- Command Opcodes
+  - Reset:
+  - Set Channel:
+  - Read Channel:
+  - Read Pistons:
+
+- KeyboardEncoder
+  - Reset
+  - Set Channel: <channel1> <channel2>
+  - Read Channel: <channel1> <channel2>
+  - Enter Training Mode: <keyboard>
+
+- TechnicsEncoder
+  - Reset
+  - Set Channel: <channel>
+  - Read Channel: <channel>
+
+- PistonEncoder
+  - Reset
+  - Read Pistons: <count> <btn1>:<long> <btn2>:<long> ..
+  - Set Piston LEDs: <bitmask>
+
+- ToestudEncoder
+  - Reset
+  - Set Channel: <channel>
+  - Read Channel: <channel>
+  - Read Pistons: <count> <btn1>:<long> <btn2>:<long> ..
+  - Read Swell Pedal: <pedal1> <pedal2> <pedal3>
+
+- PedalEncodero
+  - Reset
+  - Set Channel: <channel>
+  - Read Channel: <channel>
+  - Set LED Intensity: <intensity>:<blink>
+  - Read LED Intensity: <intensity>:<blink>
+  
+
