@@ -2464,6 +2464,10 @@
 		(uuid "801b681a-afec-42eb-875b-e31a3f4c4521")
 	)
 	(no_connect
+		(at 144.78 76.2)
+		(uuid "846565e5-6e19-4336-880e-7eaf52e23843")
+	)
+	(no_connect
 		(at 162.56 133.35)
 		(uuid "9db40bff-ad98-471b-aca3-9870472e16c8")
 	)
@@ -2981,16 +2985,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 76.2) (xy 135.89 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "574f9549-d64a-4763-8120-c02b8800c5be")
-	)
-	(wire
-		(pts
 			(xy 58.42 76.2) (xy 74.93 76.2)
 		)
 		(stroke
@@ -3398,16 +3392,6 @@
 			(type default)
 		)
 		(uuid "aef675b5-7e96-4bc0-b3ff-fd866b30c4a4")
-	)
-	(wire
-		(pts
-			(xy 135.89 76.2) (xy 135.89 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a43c04-b2e7-4147-bbaa-34626da76918")
 	)
 	(wire
 		(pts
@@ -4581,72 +4565,6 @@
 			(project "MIDIController-IO-Boards"
 				(path "/06df47e9-b50a-4827-8ccb-76595e56d621/563c44a9-e62f-4884-9575-68843445bbb7"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 135.89 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27c34f67-3dd4-4824-9755-759c452d52f1")
-		(property "Reference" "#PWR016"
-			(at 135.89 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 135.89 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f467fdc-d83d-4436-999a-a0fc583d9ab7")
-		)
-		(instances
-			(project "MIDIController-IO-Boards"
-				(path "/06df47e9-b50a-4827-8ccb-76595e56d621/563c44a9-e62f-4884-9575-68843445bbb7"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)

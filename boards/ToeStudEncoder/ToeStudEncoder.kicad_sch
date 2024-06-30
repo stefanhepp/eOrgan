@@ -3991,6 +3991,12 @@
 		(uuid "0922c2c4-f35e-43e2-a293-617ba6a57592")
 	)
 	(junction
+		(at 215.9 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09878eaa-4778-4125-b08a-d2e9548ac15a")
+	)
+	(junction
 		(at 157.48 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4119,10 +4125,6 @@
 	(no_connect
 		(at 215.9 43.18)
 		(uuid "bab170df-e281-4d67-b9c5-ddf0f5eea567")
-	)
-	(no_connect
-		(at 215.9 114.3)
-		(uuid "bad7c8f3-1628-4643-aae8-bb36786c98bd")
 	)
 	(no_connect
 		(at 86.36 115.57)
@@ -4258,6 +4260,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 137.16) (xy 215.9 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2121bd0f-4571-4303-af0b-8d2e4e38b6c0")
+	)
+	(wire
+		(pts
 			(xy 73.66 57.15) (xy 73.66 59.69)
 		)
 		(stroke
@@ -4295,6 +4307,16 @@
 			(type default)
 		)
 		(uuid "296974bb-6404-4b54-aa21-47f6ca041e2f")
+	)
+	(wire
+		(pts
+			(xy 204.47 137.16) (xy 200.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c541a53-4689-4f56-9480-378ac8e5ad53")
 	)
 	(wire
 		(pts
@@ -5228,6 +5250,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 114.3) (xy 215.9 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77699e3-9590-46e9-b4dd-dbbd2af0a30c")
+	)
+	(wire
+		(pts
 			(xy 114.3 85.09) (xy 114.3 87.63)
 		)
 		(stroke
@@ -5840,7 +5872,7 @@
 	)
 	(global_label "TXD"
 		(shape input)
-		(at 215.9 137.16 180)
+		(at 200.66 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5850,7 +5882,7 @@
 		)
 		(uuid "b50c6724-7b61-440f-96fe-795be80030e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.4677 137.16 0)
+			(at 194.2277 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9439,6 +9471,74 @@
 			(project "ToeStudEncoder"
 				(path "/a0f642fd-a17d-4032-8879-54d542360da8"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 137.16 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cffe9f9f-1c13-40ee-8278-3f136e193f7d")
+		(property "Reference" "R6"
+			(at 208.28 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 208.28 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 208.28 135.382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cec36452-e9af-4f6e-9d4c-059b5b5d3d60")
+		)
+		(pin "2"
+			(uuid "d10ee1e6-600f-4e7e-ab7d-ae9dfecde5f3")
+		)
+		(instances
+			(project "ToeStudEncoder"
+				(path "/a0f642fd-a17d-4032-8879-54d542360da8"
+					(reference "R6")
 					(unit 1)
 				)
 			)
