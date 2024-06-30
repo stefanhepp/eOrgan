@@ -58,7 +58,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|153773046|65440632|8fed2903-4c79-4e24-9f0d-42ad0c92a3fc|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -505,7 +507,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ToeStudEncoder.step",
       "svg": "",
       "vrml": ""
     },
