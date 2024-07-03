@@ -8006,7 +8006,7 @@
 		(uuid "3c6df688-b6cd-4fe5-a334-f7420b1cc62b")
 	)
 	(label "RXD7"
-		(at 187.96 142.24 0)
+		(at 187.96 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8116,7 +8116,7 @@
 		(uuid "56f5aaff-f36e-4899-88eb-7ec337f92e3c")
 	)
 	(label "RXD5"
-		(at 187.96 147.32 0)
+		(at 187.96 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8160,7 +8160,7 @@
 		(uuid "6435e46a-8463-4475-9d46-2e04cac831a7")
 	)
 	(label "TXD7"
-		(at 254 142.24 180)
+		(at 254 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8501,7 +8501,7 @@
 		(uuid "a2f40ac6-0154-40c8-beaa-370cbddf1766")
 	)
 	(label "TXD5"
-		(at 254 147.32 180)
+		(at 254 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
