@@ -52,60 +52,66 @@ I2C
 I2C Devices
 -----------
 
-- I2S Audio:		0x
-- TCA9548:		0x70
+Addresses as 7-bit values
+
+- I2S Audio:		0x0A / 0x2A
+- TCA9548:		0x70 - 0x77
   - Port 0: Panel
   - Port 1: Header
   - Port 2: StopLeft
+    - LEDControl AtMega	0x50
   - Port 3: StopRight
   - Port 4: ToeStuds
-    - ToeStud AtMega:	0x
-    - Pedal AtMega:	0x
+    - ToeStud AtMega:	0x60
+    - Pedal AtMega:	0x61
   - Port 5: Technics
-    - Technics AtMega:	0x
-    - Piston AtMega:	0x
+    - Technics AtMega:	0x62
+    - Piston AtMega:	0x6A
   - Port 6: Keyboard
-    - Keyboard AtMega:	0x
-    - Piston AtMega:	0x
+    - Keyboard AtMega:	0x63
+    - Piston AtMega:	0x6B
   - Port 7: Header
 
 I2C Commands
 ------------
 
-- Command Opcodes
-  - Reset:
-  - Set Channel:
-  - Read Channel:
-  - Read Pistons:
+- Common Format
+  - Write: <opcode> <data> ...
+  - Read: <Channel> <status> ...
+
+- Command Write Opcodes
+  - Reset:	    0x01
+  - Set Channel:    0x02 <channel>
 
 - KeyboardEncoder
-  - Reset
-  - Set Channel: <channel1> <channel2>
-  - Read Channel: <channel1> <channel2>
-  - Enter Training Mode: <keyboard>
+  - W: Reset		0x01
+  - W: Set Channel:	0x02 <channel1> <channel2>
+  - W: Start Training:	0x03 <keyboardNr>
+  - R: Status		<channel1> <channel2>
 
 - TechnicsEncoder
-  - Reset
-  - Set Channel: <channel>
-  - Read Channel: <channel>
+  - W: Reset		0x01
+  - W: Set Channel:	0x02 <channel>
+  - W: Calibrate Wheel: 0x03
+  - R: Status		<channel> <wheel>
 
 - PistonEncoder
-  - Reset
-  - Read Pistons: <count> <btn1>:<long> <btn2>:<long> ..
-  - Set Piston LEDs: <bitmask>
+  - W: Reset		0x01
+  - W: Set LEDs		0x03 <7:kbd|6:0:bitmask3> <bitmask2> <bitmask1>
+  - R: Read Pistons:    <count> <7:kbd|6:1:btn|0:long> ..
 
 - ToestudEncoder
-  - Reset
-  - Set Channel: <channel>
-  - Read Channel: <channel>
-  - Read Pistons: <count> <btn1>:<long> <btn2>:<long> ..
-  - Read Swell Pedal: <pedal1> <pedal2> <pedal3>
+  - W: Reset		0x01
+  - W: Set Channel:	0x02 <channel>
+  - W: Calibrate Pedal: 0x03
+  - W: Set Mode:        0x04 <mode>
+    - mode 0x01: Send I2C
+    - mode 0x02: Send MIDI
+  - R: <channel> <pedal1> <pedal2> <pedal3> <count> <7:1 btn|0:long> ..
 
 - PedalEncodero
-  - Reset
-  - Set Channel: <channel>
-  - Read Channel: <channel>
-  - Set LED Intensity: <intensity>:<blink>
-  - Read LED Intensity: <intensity>:<blink>
-  
+  - W: Reset		0x01
+  - W: Set Channel:	0x02 <channel>
+  - W: LED Intensity:   0x03 <7:1 intensity|0: blink>
+  - R: Status           <channel> <intensity> 
 
