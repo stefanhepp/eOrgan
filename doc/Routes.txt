@@ -59,17 +59,17 @@ Addresses as 7-bit values
   - Port 0: Panel
   - Port 1: Header
   - Port 2: StopLeft
-    - LEDControl AtMega	0x50
+    - LEDControl AtMega	0x56
   - Port 3: StopRight
   - Port 4: ToeStuds
-    - ToeStud AtMega:	0x60
-    - Pedal AtMega:	0x61
+    - ToeStud AtMega:	0x52
+    - Pedal AtMega:	0x54
   - Port 5: Technics
-    - Technics AtMega:	0x62
-    - Piston AtMega:	0x6A
+    - Technics AtMega:	0x53
+    - Piston AtMega:	0x5A
   - Port 6: Keyboard
-    - Keyboard AtMega:	0x63
-    - Piston AtMega:	0x6B
+    - Keyboard AtMega:	0x52
+    - Piston AtMega:	0x5B
   - Port 7: Header
 
 I2C Commands
@@ -97,12 +97,12 @@ I2C Commands
 
 - PistonEncoder
   - W: Reset		0x01
-  - W: Set LEDs		0x03 <7:kbd|6:0:bitmask3> <bitmask2> <bitmask1>
+  - W: Set LEDs		0x03 <7:kbd|6:0:bitmask4> <bitmask3> <bitmask2> <bitmask1>
   - R: Read Pistons:    <count> <7:kbd|6:1:btn|0:long> ..
 
 - ToestudEncoder
   - W: Reset		0x01
-  - W: Set Channel:	0x02 <channel>
+  - W: Set Channel:	0x02 <channel> <channelSwell> <channelChoir>
   - W: Calibrate Pedal: 0x03
   - W: Set Mode:        0x04 <mode>
     - mode 0x01: Send I2C
@@ -112,6 +112,6 @@ I2C Commands
 - PedalEncodero
   - W: Reset		0x01
   - W: Set Channel:	0x02 <channel>
-  - W: LED Intensity:   0x03 <7:1 intensity|0: blink>
+  - W: LED Intensity:   0x03 <intensity>
   - R: Status           <channel> <intensity> 
 
