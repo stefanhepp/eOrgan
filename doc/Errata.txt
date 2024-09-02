@@ -7,7 +7,7 @@ o) PedalEncoder
 
 o) MIDIController
 - Fixed mirrored MIDI breakout board connector
-  - Workaround: twist ISP header 180degree
+  - Workaround: reverse IDC16 board
 
 o) ToeStudController
 - Fixed PS2 pin order

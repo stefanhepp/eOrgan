@@ -48,8 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.4
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -59,11 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_over_copper|162380857|127784877|f8e2ef12-d0ee-4367-8338-757fbe4c8634|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|162811734|127686533|6dd83f1c-85c4-4f3c-b75f-5500f766894f|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|163085971|127222567|dd7369d9-4d79-4230-9dfe-8eb8a701ca61|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -98,7 +93,7 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "error",
+        "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
@@ -120,8 +115,6 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.32,
         "min_connection": 0.3,
@@ -138,8 +131,6 @@
         "min_track_width": 0.3,
         "min_via_annular_width": 0.35,
         "min_via_diameter": 1.7,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -224,8 +215,7 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false,
-      "zones_use_no_outline": true
+      "zones_allow_external_fillets": false
     },
     "ipc2581": {
       "dist": "",
@@ -457,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KeyboardScanner.kicad_pro",
+    "filename": "IDC16-ReverseConnector.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -570,23 +560,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -618,18 +596,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -641,12 +609,8 @@
   },
   "sheets": [
     [
-      "cbea9b23-a5d5-4e12-8904-2e66ea6ed837",
+      "ce597bbc-01c1-4732-b916-a3b80b113686",
       "Root"
-    ],
-    [
-      "492e8c2b-1144-4762-930b-e642a1bbd220",
-      "Input Multiplexers"
     ]
   ],
   "text_variables": {}
