@@ -2799,6 +2799,12 @@
 		(uuid "de02863f-560a-4553-9a95-b718da63077a")
 	)
 	(junction
+		(at 233.68 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2097a1a-b0cb-4d4d-b8e9-ad2e10ee07b4")
+	)
+	(junction
 		(at 233.68 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3035,6 +3041,16 @@
 			(type default)
 		)
 		(uuid "1a9f1c3e-ca64-46fa-bea4-ea09b08cf4e0")
+	)
+	(wire
+		(pts
+			(xy 220.98 86.36) (xy 233.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aae4dca-051a-4587-8265-511131400a4e")
 	)
 	(wire
 		(pts
@@ -3518,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 83.82) (xy 233.68 95.25)
+			(xy 233.68 83.82) (xy 233.68 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3958,6 +3974,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 86.36) (xy 233.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e535f48-2f08-4b04-8a78-b548dad07646")
+	)
+	(wire
+		(pts
 			(xy 231.14 140.97) (xy 233.68 140.97)
 		)
 		(stroke
@@ -4105,6 +4131,16 @@
 			(type default)
 		)
 		(uuid "b34b047b-cd4d-484d-bca4-971a7c617717")
+	)
+	(wire
+		(pts
+			(xy 220.98 83.82) (xy 220.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3788beb-506f-4e73-b0d2-c99fabc9272f")
 	)
 	(wire
 		(pts
@@ -6274,7 +6310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 105.41 72.39 0)
 			(effects
 				(font
@@ -6694,7 +6730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 142.24 167.64 0)
 			(effects
 				(font
@@ -7021,6 +7057,72 @@
 			(project "LEDController"
 				(path "/75af7309-2f58-4fd2-89b0-eb551d087b2d"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 220.98 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b20cdf2d-ee07-46cf-abf3-23e3c4b0c30a")
+		(property "Reference" "#FLG03"
+			(at 220.98 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06538240-eb24-4c2e-9e9a-647e865f4984")
+		)
+		(instances
+			(project "LEDController"
+				(path "/75af7309-2f58-4fd2-89b0-eb551d087b2d"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
