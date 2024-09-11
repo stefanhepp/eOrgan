@@ -13,3 +13,5 @@ o) ToeStudController
 - Fixed PS2 pin order
   - Workaround: cross-wire cables MIDIController-IO Board <> ToeStudEncoder and ToeStudEncoder <> Pedal
 
+o) KeyboardScanner
+- Replaced inverting buffer 2803A with noninverting 62783A buffer
