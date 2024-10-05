@@ -1,0 +1,114 @@
+Manual Pistons
+--------------
+o) IV: Solo
+- Global
+  - 1..8: Presets
+- Sequencer
+  - <-, ->: Prev/Next Preset/Sequence
+- Solo
+  - Coupler:
+  - 4"/16" coupler
+  - Off: Turn off manual (8")
+  - 1..5: Presets
+  - C: Clear registers
+  - Cr: Enable Crescendo pedal
+
+o) III: Swell
+- Registration
+  - Set: Press to set current settings to preset button
+  - Hold: Keep current registration while new registration is set
+  - C: Clear all settings
+- Global
+  - 9..12: Presets
+- Page Turn
+  - <,>: Prev,Next page
+- Swell
+  - Coupler:
+  - 4"/16" coupler
+  - Off: Turn off manual (8")
+  - 1..5: Presets
+  - C: Clear registers
+  - Cr: Enable Crescendo pedal
+
+o) II: Great
+  (No controls)
+
+o) I: Choir
+- Pedal
+  - Coupler:
+  - 4"/16" coupler
+  - Off: Turn off manual (8")
+  - 1..5: Presets
+  - C: Clear registers
+  - Cr: Enable Crescendo pedal
+- Choir
+  - Coupler:
+  - 4"/16" coupler
+  - Off: Turn off manual (8")
+  - 1..5: Presets
+  - C: Clear registers
+  - Cr: Enable Crescendo pedal
+
+
+Pedal Toestuds
+--------------
+
+o) Pedals
+- I: Choir: Volume / Bendwheel
+- III: Swell / II: Great: Volume / Bendwheel
+- Crescendo: Volume / Registration (CR enabled)
+
+o) ToeStuds
+- Left
+  - Top: 
+  - Bottom: Global 1..4 Presets; < Page Prev
+- Right:
+  - Top: <,> Sequencer Prev, Next; ?
+  - Bottom: > Page Next; Pedal 1..4 Presets
+
+Panels
+------
+
+o) Registration, Coupler
+- IV  Solo:  Coupler         III/IV, II/IV,  I/IV,   P/IV;  4", 16", Off; Presets 1..5, C; Cr
+- III Swell: Coupler S/III,          II/III, I/IIII, P/III; 4", 16", Off; Presets 1..5, C; Cr
+- II Great:  Coupler S/II,   III/II,         I/II,   P/II;  4", 16", Off; Presets 1..5, C; Cr
+- I Choir    Coupler S/I,    III/I,  II/I,           P/I;   4", 16", Off; Presets 1..5, C; Cr
+- P Pedal:   Coupler S/P,    III/P,  II/P,   I/P;           4", 16", Off; Presets 1..5, C; Cr
+- Global:    Set, Hold, C; Presets 1..12; Sequencer <,>
+
+o) Display 11.9" Touchscreen
+- Home: Select menus; Main button shortcuts; Status display
+- Coupler, Registration
+- MIDI Router
+- Sequencer
+- Audio FX engine
+- Teensy Synth
+- Settings
+
+o) Main Controls
+- Display navigation: Up,Down,Left,Down D-pad; Enter, Esc, Return; Rotary Encoder; 
+- Mode select: GrandOrgue (USB out only, no coupler), USB (USB out only, with coupler/registration), Synth (MIDI router enabled; with coupler)
+- Menu Select: Home, Registration/Coupler, MIDI Router, Sequencer, Audio, TeensySynth, Settings
+- Presets: Load, Save, Clear; Presets 1..8  (All registration, couplers, sequences)
+
+
+Engines
+=======
+
+o) Coupler, Registration
+- Inputs: Divisions (raw MIDI), Pistons, Crescendo Pedal
+- Outputs: Divisions (Midi), Registration CCs
+- Commands
+  - 
+
+o) MIDI Router
+- Inputs: Divisions (coupled), MIDI In 1-4
+- Outputs: MIDI Out 1-4, MIDI USB, MIDI Ethernet, TeensySynth
+- Commands
+  - 
+
+
+o) Audio FX
+
+
