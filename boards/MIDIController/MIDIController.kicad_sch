@@ -1131,116 +1131,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -4104,6 +3994,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -6212,6 +6271,12 @@
 		)
 	)
 	(junction
+		(at 90.17 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1396e4e5-4b3a-4c6c-844d-2e7ac4cf844e")
+	)
+	(junction
 		(at 45.72 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6302,10 +6367,6 @@
 	(no_connect
 		(at 90.17 128.27)
 		(uuid "555b0ee2-0f11-47e0-8c13-b107c705aa1a")
-	)
-	(no_connect
-		(at 125.73 48.26)
-		(uuid "55dd4d1a-6fbb-4c48-a961-b1f969a50493")
 	)
 	(no_connect
 		(at 242.57 38.1)
@@ -6563,6 +6624,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 71.12) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b32b6e-f49c-49b2-a42c-55d557ff4c7b")
+	)
+	(wire
+		(pts
 			(xy 187.96 111.76) (xy 201.93 111.76)
 		)
 		(stroke
@@ -6603,6 +6674,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 138.43) (xy 92.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab172d3-2f04-459a-bc63-65d8f39ff025")
+	)
+	(wire
+		(pts
 			(xy 242.57 53.34) (xy 255.27 53.34)
 		)
 		(stroke
@@ -6610,6 +6691,16 @@
 			(type default)
 		)
 		(uuid "1e0a57b1-267b-4545-84bb-5d8a89081730")
+	)
+	(wire
+		(pts
+			(xy 95.25 146.05) (xy 90.17 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f96f2ba-0fdc-4f7a-af08-7117742f0ca4")
 	)
 	(wire
 		(pts
@@ -6983,6 +7074,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 139.7) (xy 95.25 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f0428d-3939-4928-a5d4-7fca4704b2d2")
+	)
+	(wire
+		(pts
 			(xy 245.11 116.84) (xy 252.73 116.84)
 		)
 		(stroke
@@ -7040,6 +7141,26 @@
 			(type default)
 		)
 		(uuid "6a473595-3364-4941-8a2c-16ca0218cbb6")
+	)
+	(wire
+		(pts
+			(xy 95.25 139.7) (xy 95.25 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aad08ab-8318-4780-83ed-9611fcdf6950")
+	)
+	(wire
+		(pts
+			(xy 165.1 73.66) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c933efb-d0f2-41e5-8c32-5fce38dd5c32")
 	)
 	(wire
 		(pts
@@ -7190,6 +7311,16 @@
 			(type default)
 		)
 		(uuid "8bff03ab-4ed7-4f0f-90a4-f9efb418981f")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e69a3ae-1cab-49e2-87d4-dcc1e3364e28")
 	)
 	(wire
 		(pts
@@ -7520,6 +7651,16 @@
 			(type default)
 		)
 		(uuid "ce06cc92-f7b6-43d1-95f9-a73dca6444b1")
+	)
+	(wire
+		(pts
+			(xy 125.73 48.26) (xy 138.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf82d127-973c-4dab-be9d-dc722b3d6ab8")
 	)
 	(wire
 		(pts
@@ -7938,6 +8079,17 @@
 			(justify left bottom)
 		)
 		(uuid "1df9b7ee-9b28-4602-ab51-6dee4b17b65f")
+	)
+	(label "LED"
+		(at 138.43 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "225320ad-5d52-4d10-a577-7f600de2e5a2")
 	)
 	(label "RPI_MOSI"
 		(at 57.15 83.82 0)
@@ -8566,6 +8718,17 @@
 		)
 		(uuid "a851e782-9e21-41ce-8f11-0f3a95698482")
 	)
+	(label "LED"
+		(at 157.48 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a86a6bdd-9d7f-483c-bc1b-5b79d1ca3819")
+	)
 	(label "RXD5"
 		(at 138.43 53.34 180)
 		(fields_autoplaced yes)
@@ -8884,6 +9047,76 @@
 			(justify left bottom)
 		)
 		(uuid "ff66d14a-e6a2-43db-a479-2c26c1158caf")
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 165.1 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00c21df0-3d2d-44fd-8ee0-c14b81533e01")
+		(property "Reference" "D1"
+			(at 168.91 85.4074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 168.91 87.9474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69a25135-c12a-4118-a043-c1cf3c417dfd")
+		)
+		(pin "2"
+			(uuid "82816519-f44a-4f48-b18d-55ca02fc8427")
+		)
+		(instances
+			(project ""
+				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:USB_A")
@@ -9570,6 +9803,77 @@
 			(project "MIDIController"
 				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 92.71 133.35 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c696b73-12c6-47c5-b1aa-f8ffb5c69fc5")
+		(property "Reference" "J1"
+			(at 95.25 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bat"
+			(at 95.25 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 92.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 92.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e278ad23-03c8-4a8a-a355-80e46659202e")
+		)
+		(pin "2"
+			(uuid "6ebab3aa-f31d-4767-8c49-d6c21809fe4d")
+		)
+		(instances
+			(project "MIDIController"
+				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10308,6 +10612,72 @@
 			(project "MIDIController"
 				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a3882a4-b428-44de-b241-a6c773a625c5")
+		(property "Reference" "#PWR032"
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cf76872-a20a-48a3-88a6-45ff63cae6b5")
+		)
+		(instances
+			(project "MIDIController"
+				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11863,73 +12233,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 90.17 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2e9fb58-bf17-4f2f-afcb-19fc196078e8")
-		(property "Reference" "J1"
-			(at 92.71 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 92.71 134.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0db09141-63a0-410d-880d-5db91105f4d7")
-		)
-		(instances
-			(project "MIDIController"
-				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 90.17 143.51 0)
 		(mirror y)
@@ -11994,6 +12297,76 @@
 			(project "MIDIController"
 				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdc56c84-97b0-4bc7-84ec-afb92aaeabe4")
+		(property "Reference" "R9"
+			(at 167.64 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470"
+			(at 167.64 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 166.878 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bf6ade0-9454-47d4-91e3-c8f0cf20688c")
+		)
+		(pin "2"
+			(uuid "b410b152-c1c9-4e28-a3ad-d2f9c3518f11")
+		)
+		(instances
+			(project "MIDIController"
+				(path "/92e30726-a111-410e-a189-3ef5a23983ec"
+					(reference "R9")
 					(unit 1)
 				)
 			)

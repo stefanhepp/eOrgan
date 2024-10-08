@@ -91,6 +91,9 @@ o) Main Controls
 - Mode select: GrandOrgue (USB out only, no coupler), USB (USB out only, with coupler/registration), Synth (MIDI router enabled; with coupler)
 - Menu Select: Home, Registration/Coupler, MIDI Router, Sequencer, Audio, TeensySynth, Settings
 - Presets: Load, Save, Clear; Presets 1..8  (All registration, couplers, sequences)
+- Power LED 5V, 12V
+- Volume: Teensy Out, FX1, FX2
+- 2x USB Raspberry
 
 
 Engines

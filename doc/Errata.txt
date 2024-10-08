@@ -8,6 +8,8 @@ o) PedalEncoder
 o) MIDIController
 - Fixed mirrored MIDI breakout board connector
   - Workaround: reverse IDC16 board
+- Fixed swapped I2S data signals
+  - Workaround: cross-wire I2S data lines
 
 o) ToeStudController
 - Fixed PS2 pin order
