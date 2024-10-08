@@ -7929,7 +7929,7 @@
 		(uuid "1bf3b098-ec71-4aaf-a299-4b15ecdbe50d")
 	)
 	(label "I2S_IN2"
-		(at 24.13 171.45 0)
+		(at 24.13 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8688,7 +8688,7 @@
 		(uuid "c64f0bda-5882-46a3-aab1-74685c5405a8")
 	)
 	(label "I2S_OUT2"
-		(at 24.13 173.99 0)
+		(at 24.13 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
