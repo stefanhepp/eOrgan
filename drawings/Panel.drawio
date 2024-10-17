@@ -386,10 +386,10 @@
           <mxGeometry x="765" y="650" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-147" value="5V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="1020" width="40" height="20" as="geometry" />
+          <mxGeometry x="-290" y="1020" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-148" value="12V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="1020" width="40" height="20" as="geometry" />
+          <mxGeometry x="-240" y="1020" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-149" value="Home" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="800" width="50" height="50" as="geometry" />
@@ -416,22 +416,25 @@
           <mxGeometry x="150" y="800" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-157" value="MIDI&lt;div&gt;USB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="310" y="880" width="70" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-158" value="MIDI&lt;br&gt;Ethernet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="390" y="880" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-158" value="Coupler&lt;br&gt;MIDI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="390" y="800" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-159" value="Coupler&lt;br&gt;Enable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="310" y="800" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-160" value="MIDI&amp;nbsp;&lt;div&gt;OUT&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="390" y="800" width="70" height="70" as="geometry" />
+          <mxGeometry x="310" y="880" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-161" value="Enter&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="800" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-163" value="Back&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="860" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-164" value="Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1020" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

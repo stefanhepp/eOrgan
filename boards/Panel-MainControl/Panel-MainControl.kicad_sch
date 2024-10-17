@@ -3196,6 +3196,10 @@
 		(uuid "2d558d12-14e4-4895-b845-4ccd155326f3")
 	)
 	(no_connect
+		(at 146.05 74.93)
+		(uuid "2d8464a7-d624-4908-86b1-bceba7336bb0")
+	)
+	(no_connect
 		(at 199.39 69.85)
 		(uuid "32b1dc06-fcc1-4a91-a1ce-558979c424f1")
 	)
@@ -5085,6 +5089,72 @@
 			(project "Panel-RPiBreakout"
 				(path "/2777062a-260a-49c7-9a79-289c63518b5f"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 156.21 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48bd1747-ac6f-489b-8141-d1def75c7253")
+		(property "Reference" "#PWR022"
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 156.21 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "436d53a2-6d6e-4288-815a-d523e7121410")
+		)
+		(instances
+			(project "Panel-MainControl"
+				(path "/2777062a-260a-49c7-9a79-289c63518b5f"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Panel-RPiBreakout.kicad_pro",
+    "filename": "Panel-MainControl-Wires.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -384,7 +384,7 @@
   },
   "sheets": [
     [
-      "2777062a-260a-49c7-9a79-289c63518b5f",
+      "71286012-48d5-4036-9198-9cf69b88feab",
       "Root"
     ]
   ],
