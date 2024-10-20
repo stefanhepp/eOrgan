@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="-pgPHjdQSfQavGY86Az-">
-    <mxGraphModel dx="2924" dy="1364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1541" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -394,25 +394,25 @@
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-149" value="Home" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="800" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-150" value="MIDI&lt;br&gt;Coupler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-150" value="Couple" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="860" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-151" value="&lt;div&gt;MIDI&lt;/div&gt;Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-151" value="Route" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="860" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-152" value="Seq&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="860" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-153" value="Audio&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-153" value="Audio&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="210" y="800" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-154" value="Synth&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="860" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-155" value="Settings&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-155" value="Setup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="800" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-156" value="Presets&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-156" value="Preset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="800" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-157" value="MIDI&lt;div&gt;USB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -427,10 +427,10 @@
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-160" value="MIDI&amp;nbsp;&lt;div&gt;OUT&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="310" y="880" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-161" value="Enter&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-161" value="OK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-90" y="800" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-163" value="Back&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5CnpQcvF3NgObZ_mpEZ_-163" value="Back&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-90" y="860" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5CnpQcvF3NgObZ_mpEZ_-164" value="Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
