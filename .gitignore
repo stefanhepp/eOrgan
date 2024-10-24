@@ -19,6 +19,7 @@ fp-info-cache
 
 # Ignore fab outputs
 gerber/
+grbl/
 bom/
 
 # Ignore FreeCAD backups
