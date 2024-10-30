@@ -3488,6 +3488,126 @@
 				)
 			)
 		)
+		(symbol "power:+5VA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3706,7 +3826,7 @@
 		(uuid "66130508-9353-43f3-8a4e-072a43501653")
 	)
 	(junction
-		(at 157.48 121.92)
+		(at 157.48 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c35a3f8-7156-4184-8f15-1aeb32fe929a")
@@ -3792,14 +3912,6 @@
 		(uuid "ad7e2977-778b-49eb-bc94-14757fad4705")
 	)
 	(no_connect
-		(at 241.3 129.54)
-		(uuid "b8487252-14ba-4e55-9bb3-57844bc1ff47")
-	)
-	(no_connect
-		(at 158.75 101.6)
-		(uuid "c510b930-b093-427b-bb56-7c037a20e2da")
-	)
-	(no_connect
 		(at 97.79 36.83)
 		(uuid "c9976506-ce07-4a22-b6b1-c926dc58ee70")
 	)
@@ -3835,7 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 121.92) (xy 156.21 121.92)
+			(xy 157.48 124.46) (xy 156.21 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4075,7 +4187,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 124.46) (xy 157.48 121.92)
+			(xy 157.48 127) (xy 157.48 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4162,6 +4274,16 @@
 			(type default)
 		)
 		(uuid "2a90c520-d1e0-4d68-a079-2886e8c34cf3")
+	)
+	(wire
+		(pts
+			(xy 243.84 129.54) (xy 241.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2baddef5-aff0-41fe-bd5f-6dde2b02419f")
 	)
 	(wire
 		(pts
@@ -4645,6 +4767,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 123.19) (xy 243.84 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d086c5-9ef8-4a07-82ce-eadb28d80073")
+	)
+	(wire
+		(pts
 			(xy 146.05 81.28) (xy 158.75 81.28)
 		)
 		(stroke
@@ -5035,7 +5167,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 121.92) (xy 157.48 121.92)
+			(xy 158.75 124.46) (xy 157.48 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5275,6 +5407,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 121.92) (xy 158.75 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df75bbab-555f-49ba-8b57-5f3edecd882a")
+	)
+	(wire
+		(pts
 			(xy 156.21 58.42) (xy 156.21 55.88)
 		)
 		(stroke
@@ -5335,7 +5477,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 124.46) (xy 157.48 124.46)
+			(xy 158.75 127) (xy 157.48 127)
 		)
 		(stroke
 			(width 0)
@@ -6631,7 +6773,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
-		(at 163.83 111.76 0)
+		(at 163.83 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6640,15 +6782,6 @@
 		(fields_autoplaced yes)
 		(uuid "21dbb975-92fb-45d4-807d-4c05db3d9ba9")
 		(property "Reference" "J11"
-			(at 166.37 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x10"
 			(at 166.37 114.2999 0)
 			(effects
 				(font
@@ -6657,8 +6790,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "Conn_01x10"
+			(at 166.37 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical"
-			(at 163.83 111.76 0)
+			(at 163.83 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,7 +6809,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 111.76 0)
+			(at 163.83 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,7 +6818,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 163.83 111.76 0)
+			(at 163.83 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,7 +8409,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 121.92 270)
+		(at 156.21 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8276,7 +8418,7 @@
 		(fields_autoplaced yes)
 		(uuid "61f7cd2f-c0b3-4207-9761-bfdf304ecda5")
 		(property "Reference" "#PWR032"
-			(at 149.86 121.92 0)
+			(at 149.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,7 +8427,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 121.9199 90)
+			(at 152.4 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8294,7 +8436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 121.92 0)
+			(at 156.21 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8303,7 +8445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 121.92 0)
+			(at 156.21 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8312,7 +8454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 121.92 0)
+			(at 156.21 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,6 +9580,139 @@
 			(project "Panel-MainControl"
 				(path "/2777062a-260a-49c7-9a79-289c63518b5f"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 243.84 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be5048d0-1915-417a-bf6b-5903d59c17e0")
+		(property "Reference" "#PWR029"
+			(at 243.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 243.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 243.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "708f483a-4411-4140-b40f-5a02b84bc76d")
+		)
+		(instances
+			(project ""
+				(path "/2777062a-260a-49c7-9a79-289c63518b5f"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 156.21 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be9b4880-d7d8-4f0d-b7b0-a90be48291cf")
+		(property "Reference" "#PWR030"
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 152.4 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 156.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abf09b4e-b5af-45f5-a2de-76f1831113ba")
+		)
+		(instances
+			(project "Panel-MainControl"
+				(path "/2777062a-260a-49c7-9a79-289c63518b5f"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

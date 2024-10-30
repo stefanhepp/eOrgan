@@ -15,3 +15,6 @@ o) ToeStudController
 - Fixed PS2 pin order
   - Workaround: cross-wire cables MIDIController-IO Board <> ToeStudEncoder and ToeStudEncoder <> Pedal
 
+o) PanelMain
+- Fixed 5V Pwr LED using main 5V instead of MainPanel 5V
+  - Workaround: none
