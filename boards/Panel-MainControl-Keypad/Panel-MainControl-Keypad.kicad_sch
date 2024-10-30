@@ -3569,7 +3569,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "150"
 			(at 59.69 110.49 90)
 			(effects
 				(font
@@ -4485,16 +4485,16 @@
 			)
 		)
 		(pin "MP"
-			(uuid "27407f59-fad1-44de-a879-b5e0bdfa2ae9")
+			(uuid "27407f59-fad1-44de-a879-b5e0bdfa2aea")
 		)
 		(pin "3"
-			(uuid "7bfb3423-6d09-498e-8d5d-ceda2d2b84c6")
+			(uuid "7bfb3423-6d09-498e-8d5d-ceda2d2b84c7")
 		)
 		(pin "2"
-			(uuid "51f4bb1c-9b56-49dc-8da0-5d1214c057c2")
+			(uuid "51f4bb1c-9b56-49dc-8da0-5d1214c057c3")
 		)
 		(pin "1"
-			(uuid "04e1ab2a-d171-4ffd-aeba-2cc62c87b869")
+			(uuid "04e1ab2a-d171-4ffd-aeba-2cc62c87b86a")
 		)
 		(instances
 			(project ""
@@ -5605,19 +5605,19 @@
 			)
 		)
 		(pin "A"
-			(uuid "55a56bb7-ebba-4e65-b11a-68e12034d1b1")
+			(uuid "55a56bb7-ebba-4e65-b11a-68e12034d1b2")
 		)
 		(pin "B"
-			(uuid "507a3a3f-7b92-450c-a9b9-aa4680778d36")
+			(uuid "507a3a3f-7b92-450c-a9b9-aa4680778d37")
 		)
 		(pin "S1"
-			(uuid "7929efdc-8307-4f39-bfc3-cebd19f2190b")
+			(uuid "7929efdc-8307-4f39-bfc3-cebd19f2190c")
 		)
 		(pin "C"
-			(uuid "ff4d3e71-5305-4b51-a103-28b535b870e1")
+			(uuid "ff4d3e71-5305-4b51-a103-28b535b870e2")
 		)
 		(pin "S2"
-			(uuid "631d10b0-c840-4b83-8b1d-da39bf76a752")
+			(uuid "631d10b0-c840-4b83-8b1d-da39bf76a753")
 		)
 		(instances
 			(project ""
@@ -5682,10 +5682,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "be9d67be-64c6-4866-9d8c-cf85458698a1")
+			(uuid "be9d67be-64c6-4866-9d8c-cf85458698a2")
 		)
 		(pin "2"
-			(uuid "7b31781c-a02b-4905-bc0c-385f9e1dc1e4")
+			(uuid "7b31781c-a02b-4905-bc0c-385f9e1dc1e5")
 		)
 		(instances
 			(project ""
@@ -6106,10 +6106,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c7faf1ef-7f42-4f0d-a141-4310e9f17cc8")
+			(uuid "c7faf1ef-7f42-4f0d-a141-4310e9f17cc9")
 		)
 		(pin "1"
-			(uuid "57e86108-44a2-4ce7-a91c-088e6ac70e1b")
+			(uuid "57e86108-44a2-4ce7-a91c-088e6ac70e1c")
 		)
 		(instances
 			(project ""
@@ -6404,7 +6404,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "470"
 			(at 59.69 140.97 90)
 			(effects
 				(font
@@ -6472,7 +6472,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "150"
 			(at 59.69 123.19 90)
 			(effects
 				(font
