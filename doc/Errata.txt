@@ -18,3 +18,5 @@ o) ToeStudController
 o) PanelMain
 - Fixed 5V Pwr LED using main 5V instead of MainPanel 5V
   - Workaround: none
+- Missing pullups on button columns
+  - Workaround: Pullup adapter board
