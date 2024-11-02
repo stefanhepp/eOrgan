@@ -447,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Panel-Breakout.kicad_pro",
+    "filename": "Panel-Breakout-I2CPullup.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -609,7 +609,7 @@
   },
   "sheets": [
     [
-      "948d53c3-dd2f-4f2d-b3e2-842d58db831d",
+      "0ad4c629-1147-40c1-ae9f-9a3da7458655",
       "Root"
     ]
   ],

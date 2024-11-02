@@ -2683,6 +2683,12 @@
 		(uuid "3cf5d2d3-734e-4f8a-843a-775f868b4244")
 	)
 	(junction
+		(at 82.55 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "711eb3a2-1617-42d8-9227-5d515d1eccbc")
+	)
+	(junction
 		(at 59.69 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2717,6 +2723,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0962379-16b6-4033-9bd4-da1dc9bf7a75")
+	)
+	(junction
+		(at 91.44 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4b12fc7-fa20-44f8-9c9d-1eb194062455")
 	)
 	(no_connect
 		(at 227.33 119.38)
@@ -2998,6 +3010,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 72.39) (xy 91.44 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370d0b36-9511-4bbc-a3dd-f2ed9f3684c9")
+	)
+	(wire
+		(pts
 			(xy 240.03 124.46) (xy 242.57 124.46)
 		)
 		(stroke
@@ -3008,7 +3030,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 74.93) (xy 100.33 74.93)
+			(xy 74.93 74.93) (xy 82.55 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3075,6 +3097,16 @@
 			(type default)
 		)
 		(uuid "428602e2-a3a6-4884-8c58-05a4d2033ed9")
+	)
+	(wire
+		(pts
+			(xy 82.55 72.39) (xy 82.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435f966c-8e95-4d22-9a0d-ba3a18c9fa7e")
 	)
 	(wire
 		(pts
@@ -3235,6 +3267,16 @@
 			(type default)
 		)
 		(uuid "8979e4ea-af04-44f2-bb2c-769d8b378ae6")
+	)
+	(wire
+		(pts
+			(xy 82.55 74.93) (xy 100.33 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcb88ef-2520-4858-bf2c-03ec03f6182d")
 	)
 	(wire
 		(pts
@@ -3418,6 +3460,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 77.47) (xy 100.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b18e17-ba46-45e0-95c0-767657e2e57c")
+	)
+	(wire
+		(pts
 			(xy 214.63 129.54) (xy 227.33 129.54)
 		)
 		(stroke
@@ -3428,7 +3480,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 77.47) (xy 100.33 77.47)
+			(xy 74.93 77.47) (xy 91.44 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3825,6 +3877,76 @@
 			(project "Panel-Breakout"
 				(path "/948d53c3-dd2f-4f2d-b3e2-842d58db831d"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "053e5e3e-77ad-4ba8-ab67-afada8255c27")
+		(property "Reference" "R1"
+			(at 85.09 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 85.09 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 84.328 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f33505c-9f3d-4a66-802a-af43d1ad3d12")
+		)
+		(pin "2"
+			(uuid "7830b7de-bf96-4d45-a50b-0483361d5791")
+		)
+		(instances
+			(project "Panel-Breakout"
+				(path "/948d53c3-dd2f-4f2d-b3e2-842d58db831d"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4896,6 +5018,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 82.55 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ba9185b-c08c-40f5-bdc3-681fe189c0b6")
+		(property "Reference" "#PWR020"
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a968a24c-a9bf-4b05-a13a-74d23481d395")
+		)
+		(instances
+			(project "Panel-Breakout"
+				(path "/948d53c3-dd2f-4f2d-b3e2-842d58db831d"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 232.41 49.53 0)
 		(unit 1)
@@ -4982,6 +5170,72 @@
 			(project "Panel-Breakout"
 				(path "/948d53c3-dd2f-4f2d-b3e2-842d58db831d"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 91.44 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55c5a666-e9f3-42be-b20c-9471294d9494")
+		(property "Reference" "#PWR021"
+			(at 91.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 91.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 91.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80b0c189-08d7-4112-845b-53ae22893499")
+		)
+		(instances
+			(project "Panel-Breakout"
+				(path "/948d53c3-dd2f-4f2d-b3e2-842d58db831d"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5113,6 +5367,76 @@
 			(project "Panel-Breakout"
 				(path "/948d53c3-dd2f-4f2d-b3e2-842d58db831d"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fa0343d-e908-4d67-a2c0-6ebb8f23b86a")
+		(property "Reference" "R2"
+			(at 93.98 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 93.98 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 93.218 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d83c2494-bdc5-41f3-8b98-717967eae678")
+		)
+		(pin "2"
+			(uuid "4e9ba507-edb5-4fdc-bf8c-06d3c25dee75")
+		)
+		(instances
+			(project "Panel-Breakout"
+				(path "/948d53c3-dd2f-4f2d-b3e2-842d58db831d"
+					(reference "R2")
 					(unit 1)
 				)
 			)

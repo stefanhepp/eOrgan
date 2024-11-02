@@ -20,3 +20,7 @@ o) PanelMain
   - Workaround: none
 - Missing pullups on button columns
   - Workaround: Pullup adapter board
+
+o) Panel-Breakout
+- Raspberry PI I2C-0 requires external pullups, added
+  - Workaround: Added Panel-Breakup-I2CPullup board to add pullups
