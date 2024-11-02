@@ -84,7 +84,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(aux_axis_origin 120.75 89.5)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+			(layerselection 0x0001000_fffffffe)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -97,7 +97,7 @@
 			(plotframeref no)
 			(viasonmask no)
 			(mode 1)
-			(useauxorigin no)
+			(useauxorigin yes)
 			(hpglpennumber 1)
 			(hpglpenspeed 20)
 			(hpglpendiameter 15.000000)
@@ -116,9 +116,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber/")
 		)
 	)
 	(net 0 "")
@@ -689,7 +689,7 @@
 			(uuid "ebde9ac4-2a54-4cf0-bf0d-bd0337a08edf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "a5bd51b6-7812-4a48-8b09-5d7e2553a08e")
 			(effects
@@ -1044,7 +1044,7 @@
 			(uuid "75ef66df-a131-41c4-9484-0a1504186a6e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "d77bcf1a-2574-4342-a2fd-2fe136e950e5")
 			(effects
@@ -1186,6 +1186,74 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "359161bb-1170-46f8-99f3-130a738f3d0a")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "2976a882-16be-4448-b9a8-5620a8d7f272")
+		(pts
+			(xy 148.75 75.75) (xy 120.75 75.75)
+		)
+		(height -2.75)
+		(orientation 0)
+		(gr_text "28,0000 mm"
+			(at 134.75 71.85 0)
+			(layer "Cmts.User")
+			(uuid "2976a882-16be-4448-b9a8-5620a8d7f272")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "ee47df55-0bfe-43aa-a25d-ecaba92d76ef")
+		(pts
+			(xy 148.75 75.75) (xy 148.75 89.5)
+		)
+		(height 4)
+		(orientation 1)
+		(gr_text "13,7500 mm"
+			(at 151.6 82.625 90)
+			(layer "Cmts.User")
+			(uuid "ee47df55-0bfe-43aa-a25d-ecaba92d76ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 131.75 82.53)

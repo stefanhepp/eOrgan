@@ -60,8 +60,10 @@
       ],
       "drc_exclusions": [
         "unconnected_items|132715000|74295000|6a85dcca-bc6d-44bf-ac7b-0f0ad48c025e|b637c54d-746a-433a-b96c-49f85e2319c8",
-        "unconnected_items|137795000|76835000|9f13fb2c-0f24-4c03-baf9-1ff81b23f508|5ce0ea0f-e773-4237-bf55-afef02ab3240",
-        "unconnected_items|147955000|76835000|c9f6c16e-d616-4ebd-9c2e-3ca0fdba3322|b637c54d-746a-433a-b96c-49f85e2319c8"
+        "unconnected_items|140335000|74295000|7bcc6311-10d0-4593-a583-fe72b3631dfd|b637c54d-746a-433a-b96c-49f85e2319c8",
+        "unconnected_items|153035000|74295000|e5550885-5896-44bc-83a4-1774a7036b81|b637c54d-746a-433a-b96c-49f85e2319c8",
+        "unconnected_items|158115000|74295000|326aa961-3286-49a4-9922-e1feaa9f18b5|e5550885-5896-44bc-83a4-1774a7036b81",
+        "unconnected_items|165735000|76835000|81531098-0614-4cfc-87eb-bd5a61dda9d8|326aa961-3286-49a4-9922-e1feaa9f18b5"
       ],
       "meta": {
         "version": 2
